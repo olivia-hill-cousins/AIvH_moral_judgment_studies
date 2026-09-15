@@ -4,7 +4,10 @@
 .Ruserdata
 
 data_raw/
+manuscript/
 manu_*
+bin_pmc.R
+bin_pmc/
 .httr-oauth
 .DS_Store
 .quarto

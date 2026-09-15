@@ -1,0 +1,73 @@
+---
+title: "`grateful` citation report"
+bibliography: grateful-refs.bib
+#csl: null.csl
+---
+
+## R packages used
+
+
+\begin{tabular}{l|l|l}
+\hline
+Package & Version & Citation\\
+\hline
+base & 4.4.2 & @base\\
+\hline
+crew & 1.3.0 & @crew\\
+\hline
+data.table & 1.18.2.1 & @datatable\\
+\hline
+emmeans & 2.0.2 & @emmeans\\
+\hline
+ggeffects & 2.3.1 & @ggeffects\\
+\hline
+ggrepel & 0.9.6 & @ggrepel\\
+\hline
+janitor & 2.2.1 & @janitor\\
+\hline
+lme4 & 2.0.1 & @lme4\\
+\hline
+lmerTest & 3.1.3 & @lmerTest\\
+\hline
+parallelly & 1.46.1 & @parallelly\\
+\hline
+parameters & 0.28.3 & @parameters\\
+\hline
+paran & 1.5.5 & @paran\\
+\hline
+patchwork & 1.3.2 & @patchwork\\
+\hline
+performance & 0.16.0 & @performance\\
+\hline
+psych & 2.5.6 & @psych\\
+\hline
+RColorBrewer & 1.1.3 & @RColorBrewer\\
+\hline
+REdaS & 0.9.4 & @\\
+\hline
+rmarkdown & 2.30 & @rmarkdown2018; @rmarkdown2020; @rmarkdown2025\\
+\hline
+rnaturalearth & 1.1.0 & @rnaturalearth\\
+\hline
+scales & 1.4.0 & @scales\\
+\hline
+see & 0.13.0 & @see\\
+\hline
+sf & 1.0.22 & @sf2018; @sf2023\\
+\hline
+showtext & 0.9.7 & @showtext\\
+\hline
+sjPlot & 2.9.0 & @sjPlot\\
+\hline
+targets & 1.12.0 & @targets\\
+\hline
+tidyverse & 2.0.0 & @tidyverse\\
+\hline
+\end{tabular}
+
+**You can paste this paragraph directly in your report:**
+
+We used R v. 4.4.2 [@base] and the following R packages: crew v. 1.3.0 [@crew], data.table v. 1.18.2.1 [@datatable], emmeans v. 2.0.2 [@emmeans], ggeffects v. 2.3.1 [@ggeffects], ggrepel v. 0.9.6 [@ggrepel], janitor v. 2.2.1 [@janitor], lme4 v. 2.0.1 [@lme4], lmerTest v. 3.1.3 [@lmerTest], parallelly v. 1.46.1 [@parallelly], parameters v. 0.28.3 [@parameters], paran v. 1.5.5 [@paran], patchwork v. 1.3.2 [@patchwork], performance v. 0.16.0 [@performance], psych v. 2.5.6 [@psych], RColorBrewer v. 1.1.3 [@RColorBrewer], REdaS v. 0.9.4 [@], rmarkdown v. 2.30 [@rmarkdown2018; @rmarkdown2020; @rmarkdown2025], rnaturalearth v. 1.1.0 [@rnaturalearth], scales v. 1.4.0 [@scales], see v. 0.13.0 [@see], sf v. 1.0.22 [@sf2018; @sf2023], showtext v. 0.9.7 [@showtext], sjPlot v. 2.9.0 [@sjPlot], targets v. 1.12.0 [@targets], tidyverse v. 2.0.0 [@tidyverse].
+
+## Package citations
+
