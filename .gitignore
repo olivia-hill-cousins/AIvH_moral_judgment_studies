@@ -5,3 +5,6 @@
 
 data_raw/
 manu_*
+.httr-oauth
+.DS_Store
+.quarto
