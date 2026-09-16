@@ -72,16 +72,24 @@ convert_emmeans_OR <- function(emm_list) {
 
 ## Contrasts of the EMMs
 get_all_contrasts <- function(emm_list) {lapply(names(emm_list), function(nm) emmeans::contrast(emm_list[[nm]], interaction="pairwise", by=sub("by_","",nm))) |> setNames(names(emm_list))}
-
+get_two_way_contrasts <- function(emm, by_vars) {emmeans::contrast(emm,interaction = "pairwise",by = by_vars)}
 ## Contrasts of the EMMs in OR
-convert_contrasts_OR <- function(contrast_list) {lapply(contrast_list, function(x) {df <- as.data.frame(x); df$estimate <- exp(df$estimate); df})}
-
+convert_contrasts_OR <- function(x) {
+  if (is.list(x) && !inherits(x,"emmGrid")) return(lapply(x, convert_contrasts_OR))
+  if (inherits(x,"emmGrid")) {
+    df <- as.data.frame(summary(x))
+    est <- grep("estimate|contrast|response", names(df), value=TRUE)[1]
+    if (!is.null(est)) df[[est]] <- exp(df[[est]])
+    return(df)
+  }  
+  stop("Input must be an emmGrid or list of emmGrids.")
+}
 
 ################################################################################
 # TOaST
 ################################################################################
 run_toast_test <- function(model, bound_val){
-  toast <- parameters::equivalence_test(model, rule="classic", range=c(-bound_val,bound_val))
+  toast <- parameters::equivalence_test(model, rule="bayes", range=c(-bound_val,bound_val))
   as.data.frame(toast)
 }
 

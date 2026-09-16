@@ -51,11 +51,22 @@ conduct_model_diagnostics <- function(model,name,panelling=FALSE,chosen_type="di
 
 ## check linearity of residuals on response 
 check_linear_pred <- function(model, terms=c("PBH [all]","PDE [all]","Agent [all]"), name, theme=georgia_theme, path="figures"){
-  pr <- predict_response(model, terms = terms, bias_correction = TRUE)
-  p <- plot(pr, show_residuals = TRUE, show_residuals_line = TRUE, grid = TRUE) + scale_colour_manual(values = c("#FB9A99", "#A6CEE3")) + scale_fill_manual(values = c("#FB9A99", "#A6CEE3")) +
-    theme +theme(title = element_blank(), text = element_text(family="Georgia", size=9))
-  ggsave(filename=file.path(path, paste0(name, "_linear_pred_resp_plot.png")),
-         plot=p, width=7.27, height=5.83, units="in", dpi=300)
+  pr <- predict_response(model, terms=terms, bias_correction=TRUE)
+  p <- plot(pr, show_residuals=TRUE, show_residuals_line=TRUE, grid=TRUE)
+  
+  x_title <- p$labels$x
+  x_title <- gsub("_", " ", x_title)
+  x_title <- tools::toTitleCase(x_title)
+  
+  p <- p +
+    labs(x=x_title) +
+    scale_colour_manual(values=c("#FB9A99","#A6CEE3")) +
+    scale_fill_manual(values=c("#FB9A99","#A6CEE3")) +
+    theme + theme(title=element_blank(), text=element_text(family="Georgia", size=9))
+  
+  dir.create(path, showWarnings=FALSE, recursive=TRUE)
+  ggsave(filename=file.path(path, paste0(name, "_linear_pred_resp_plot.png")), plot=p, width=7.27, height=5.83, units="in", dpi=300)
+  p
 }
 
 # check goodness of fit via deviance, manually

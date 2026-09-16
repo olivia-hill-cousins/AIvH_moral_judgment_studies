@@ -1,24 +1,53 @@
 ################################################################################
 # PREDICTED PROBABILITIES PLOTS
 ################################################################################
-plot_predicted_probabilities <- function(model, name, path="figures", colours, theme) {
-  # Create plots and suppress plot_model output
-  p_int_list <- 
-    sjPlot::plot_model(model, type="int", colors=colours)
+plot_predicted_probabilities <- function(model, name, path = "figures", colours, theme) {
+  
+  p_int <- sjPlot::plot_model(model, type = "int", colors = colours)
+  
+  # Ensure we always have a list
+  if (!inherits(p_int, "list")) {
+    p_int_list <- list(p_int)
+  } else {
+    p_int_list <- p_int
+  }
+  
+  # Get parameter names from the plot data
+  par_names <- p_int_list[[1]]$data
+  orig <- par_names$Parameter
+  
+  # Rename parameters
+  clean <- orig
+  clean <- gsub("2(?=:)", "", clean, perl = TRUE)
+  clean <- gsub("2$", "", clean)
+  clean <- gsub("2(?=_)", "", clean, perl = TRUE)
+  clean <- gsub(":", " x ", clean)
+  clean <- gsub("_", " ", clean)
+  clean <- tools::toTitleCase(clean)
+  
+  lab_vec <- setNames(clean, orig)
   
   # Apply formatting
-  p_int_list <- lapply(p_int_list, function(p) p + theme +
-                         ggplot2::labs(title = NULL,y = "Morally Permissible"))
+  p_int_list <- lapply(
+    p_int_list,
+    function(p) {
+      p +
+        theme +
+        ggplot2::labs(title = NULL) +
+        ggplot2::scale_y_discrete(labels = lab_vec)
+    }
+  )
   
-  # Save each plot with name + number
-  dir.create(path, showWarnings=FALSE, recursive=TRUE)
+  # Save each plot
+  dir.create(path, showWarnings = FALSE, recursive = TRUE)
+  
   for (i in seq_along(p_int_list)) {
     ggplot2::ggsave(
-      filename=file.path(path, paste0(name, "_", i, ".png")),
-      plot=p_int_list[[i]],
-      width=7,
-      height=5,
-      dpi=300
+      filename = file.path(path, paste0(name, "_", i, ".png")),
+      plot = p_int_list[[i]],
+      width = 7,
+      height = 5,
+      dpi = 300
     )
   }
   
@@ -26,13 +55,37 @@ plot_predicted_probabilities <- function(model, name, path="figures", colours, t
 }
 
 
+
 ################################################################################
 # TOaST PLOTS
 ################################################################################
 
 plot_toast <- function(model, name, path="figures", colours, theme, bound_val){
-  toast <- equivalence_test(model, rule="classic", range=c(-bound_val,bound_val))
-  p <-plot(toast)
+  toast <- equivalence_test(model, rule = "bayes", range = c(-bound_val, bound_val))
+  toast_df <- as.data.frame(toast)
+  
+  orig <- toast_df$Parameter
+  
+  # # 1. Remove "2" that appears:
+  # #    - at the end of a word part before ":" or end of string
+  # #    - or between letters and ":" or "_"
+  # clean <- gsub("2(?=:)", "", orig, perl = TRUE)   # 2 before ":"
+  # clean <- gsub("2$", "", clean)                  # 2 at end of string
+  # clean <- gsub("2(?=_)", "", clean, perl = TRUE) # 2 before "_" if needed
+  
+  # 2. Replace ":" with " x "
+  clean <- gsub(":", " x ", orig)
+  
+  # 3. Replace "_" with space
+  clean <- gsub("_", " ", clean)
+  
+  # Optional: title case
+  clean <- tools::toTitleCase(clean)
+  
+  lab_vec <- setNames(clean, orig)
+  
+  p <- plot(toast) +
+    scale_y_discrete(labels = lab_vec)
   
   
   
