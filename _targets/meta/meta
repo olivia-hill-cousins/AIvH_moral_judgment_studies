@@ -1,47 +1,23 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-tidy_df_cols|function|3af58930df9bfb18
-separate_response_DVs|function|6617025e420c5b6a
-remove_timeout_responses|function|fa07bea73a7deb2a
-clean_raw_data|function|bd1d0dc6d917ca37
-add_demo_to_df|function|43af608ffa0949ca
-s3_prolific_demo_csv|stem|f93c4d3704bc1442|298e2091758c95fb|2c530c1562a7fbd1|-596127884|data_raw/s3_private_prolific_demographic.csv|t20685.3945224181s|s86083b|86083|file|local|vector|||1.831|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
+tidy_df_cols|function|3af58930df9bfb18|||||||||||||||
+separate_response_DVs|function|6617025e420c5b6a|||||||||||||||
+remove_timeout_responses|function|fa07bea73a7deb2a|||||||||||||||
+clean_raw_data|function|bd1d0dc6d917ca37|||||||||||||||
+add_demo_to_df|function|43af608ffa0949ca|||||||||||||||
 s3_demo_csv|stem|e72bd4de7af1dcb5|66f7f17caaae3c71|2c530c1562a7fbd1|1815552876|data_raw/s3_raw_demo_data.csv|t20690.4944212963s|s2379207b|2379207|file|local|vector|||1.835|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
 twelve_colours|stem|606dcf6904882a1d|56dac04cde61eb68|0f1575d5ebf404b0|1486910201||t20711.4275883792s|s130b|130|rds|local|vector|||1.836|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
 georgia_theme|stem|577c0a2124809b17|7f870f9c9f6134cf|ea7e773217eb31fc|1720571907||t20711.427588977s|s124695b|124695|rds|local|vector|||1.85|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
 MG_key|stem|b7b9e6b1a50cf0c4|fa92251a813c2ba7|2c530c1562a7fbd1|-1252717600||t20711.4275883749s|s596b|596|rds|local|vector|||1.812|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
-s3_prolific_raw_demo|stem|fb64a2c55df2e407|aa5c99543230c721|c73cd6e875cacfa0|-2069365542||t20711.4275894979s|s12402b|12402|rds|local|vector|||0.004||
 s3_raw_demo|stem|6723266d699caf43|87e349a940bb5a26|159cb14b65366631|-1111344317||t20711.4275906029s|s54607b|54607|rds|local|vector|||0.027||
-s3_clean_demo|stem|0d517311695ab95d|40983cac707822f4|e61bc0bfcf3285b6|-1914607134||t20711.4275925734s|s2444b|2444|rds|local|vector|||0.137||
 s3_data_jkey|stem|a5814cb2be278da0|29281f3c178cdf02|fc5883ebe88f072d|174735346||t20711.4276264497s|s5028763b|5028763|rds|local|vector|||1.948||
 s3_data_fkey|stem|5d06a7fe13d31b87|ab4d0f5fd6a7197c|f3540c7593095e7f|428018057||t20711.4276267372s|s5046276b|5046276|rds|local|vector|||1.964||
 s3_raw_data|stem|ac461dd042a3d10d|4b0eddd368eb9b65|7852572c315b5a64|-655504457||t20711.4276744006s|s9979382b|9979382|rds|local|vector|||0.284||
-s3_keyed_df|stem|b9572ae7d302db66|7ea04e9947d29189|1c931583dd7229bc|1750491401||t20711.4276966441s|s581396b|581396|rds|local|vector|||0.037||
-s3_full_df|stem|d7c3d00b7118b9f7|f58c06f999be4300|5f666c6d1e8c6843|337432366||t20711.4277048649s|s375265b|375265|rds|local|vector|||0.019||
-s3_save_full_df|stem|2a7eadb0ef1aa59f|be93afe65e5ea204|74215b3b4b07cac2|452143863|data_clean/full_df.csv|t20711.4277073158s|s12348032b|12348032|file|local|vector|||0.154||
-s3_save_df|stem|030ab051312b644c|b5b21fe546c05db5|d4d240ff1de3d72f|860744618|data_clean/s3_df.csv|t20711.4277121295s|s11491541b|11491541|file|local|vector|||0.216||
-s3_item_level_dilemma_df|stem|1f0c05a5e9a942ec|6276af40ed45e50b|69375ece79dbef04|-1781528582||t20711.4277144231s|s367517b|367517|rds|local|vector|||0.016||
-s3_match_item_checks|stem|f933caaaba9c4fc7|2bc182965f46228f|c51607a907808320|800420090||t20711.4277463693s|s3518b|3518|rds|local|vector|||0.091|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
-s3_glm|stem|4ba3e2bd06addd14|6fdb56d512719e0e|b79fc9dd876e5ace|-1462647043||t20711.4283853521s|s7174568b|7174568|rds|local|vector|||57.818||
-s3_semi_noSlopeDilemma_glm|stem|f39cab54ce3438d0|9a2eb2a90982c635|b79fc9dd876e5ace|-265174079||t20711.4288989891s|s7641736b|7641736|rds|local|vector|||101.528||
-s3_inter_glm|stem|4dd7fc91d0840cb7|0f3c551ab7161a6a|b79fc9dd876e5ace|-1190988602||t20711.4289084181s|s7668641b|7668641|rds|local|vector|||103.081||
-s3_all_glms|stem|00b1fa1e637f5000|43467a50191a556b|920c85c423e1bb11|1925813820||t20711.4299829827s|s39287590b|39287590|rds|local|vector|||193.928||
-s3_test_models_full_PBHxPDE|stem|e12d5014014f943c|b00def7267565979|407aac134b00787c|-967123156||t20711.429989026s|s305b|305|rds|local|vector|||0.236||
-s3_model_comp|stem|347a455ee7c7e175|34338632111f7151|fc5590cd0a99cdf3|1229164307||t20711.4300325127s|s1030b|1030|rds|local|vector|||3.874||
-s3_semi_glm|stem|05d87b2510539814|24691dd6078f8a3d|b79fc9dd876e5ace|505469973||t20711.4305252676s|s7822226b|7822226|rds|local|vector|||242.591||
-s3_all_glms_re|stem|2e806c4d80086768|663e350ae0fd955b|05434818fb899faa|-1543194014||t20711.4342418418s|s60765295b|60765295|rds|local|vector|||560.66||
-s3_model_comp_re|stem|8eac2b949da6e714|4cfa9692f6260c44|c748fb57c7f88e3b|1642926271||t20711.4343089545s|s1154b|1154|rds|local|vector|||5.258||
-s3_swap_keys_because_im_silly|function|80f5024428c369ec
-s3_combined_df|stem|e0910bf4d3689c55|e3a8bf4f42002810|3456b1f2ae13b6ce|1775823099||t20711.4386064275s|s439467b|439467|rds|local|vector|||0.007||
-s3_pre_prepdf_silly|stem|72ff1e4df3b99de0|aa423b91ae41b01d|5a7b72e18d8e0b81|-990082212||t20711.4386096069s|s439565b|439565|rds|local|vector|||0.001||
-s3_pre_prepdf|stem|031ccf02454d86bc|f5c3f14f16c4fd4b|c8e9e975f11c27b4|1331511821||t20711.4388438953s|s439563b|439563|rds|local|vector|||0.019||
-s3_filtered_df|stem|a9017952e4348e16|924f22c9be71b1ff|7fab671f225594a3|-462031585||t20711.4388466255s|s355787b|355787|rds|local|vector|||0.014||
-s3_df|stem|799a9183f5d49651|21c917b6df00fca7|bbe25c562dd21c9e|-2104404787||t20711.4390769608s|s356246b|356246|rds|local|vector|||0.014||
+s3_swap_keys_because_im_silly|function|80f5024428c369ec|||||||||||||||
 s2_raw_data_csv|stem|f790d24c896244ce|30d027e4fadc6fcf|2c530c1562a7fbd1|1058301615|data_raw/s2_raw_data.csv|t20657.8661946733s|s5919994b|5919994|file|local|vector|||1.385|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
 s1_raw_data_csv|stem|56953308a6ac9786|c8f67223c23d1538|2c530c1562a7fbd1|757209860|data_raw/s1_raw_data.csv|t20657.8870365358s|s2455794b|2455794|file|local|vector|||1.38|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
 s3_one_row_df|stem||7c8789f39b0082c6|807d20ca0548fa0c|-189409411||t20711.4455169001s||0|rds|local|vector|||0.025||Can't select columns that don't exist. ✖ Column `Gender.quant` doesn't exist.
-s1_s2_fix_dfs|function|2e0f2c7b5ff43c32
+s1_s2_fix_dfs|function|2e0f2c7b5ff43c32|||||||||||||||
 s1_raw|stem|508d9764a7c11bb7|54e8ef26d53700a4|6f088cda6e2e77d9|1044823680||t20711.4457235025s|s119081b|119081|rds|local|vector|||0.029||
-s2_raw|stem|0c273929e910de61|47642cc9d0b9bbe2|7645cb1bbc0a6ff7|-1462567742||t20711.4457242139s|s247930b|247930|rds|local|vector|||0.06||
 s1_raw_tidied|stem|1c29c0d79a9450d5|7636a259bd1fb355|fd531a5f55bc0d39|-234445442||t20711.4457243963s|s119082b|119082|rds|local|vector|||0.003||
 s1_predf|stem|549e9f44e35a5ca2|8f80d1f7739c8218|3d9acaa6b5074e77|-730969115||t20711.4461213075s|s161712b|161712|rds|local|vector|||0.471||
 s1_df|stem|abfc7a2ce51f016d|f03b6ae1ec001634|0a0fc080e53d398c|167938724||t20711.446122455s|s150714b|150714|rds|local|vector|||0.017||
@@ -53,30 +29,20 @@ s2_one_row_df|stem|34b4ea1a060cd8c4|31be33ace70597c2|a46ad34cc50e7796|-124216602
 s2_item_level_dilemma_df|stem|b323bc6abe2fb66a|9424c627b6acd48a|0de6576abcb85dd9|-2124075480||t20711.4465592027s|s313419b|313419|rds|local|vector|||0.01||
 save_s2_df|stem|4ad920288b9625e0|c94322eb709fc55c|ee52691ec4928f1b|-917385107|data_clean/s2_df.csv|t20711.4465597525s|s6932011b|6932011|file|local|vector|||0.156||
 s2_match_item_checks|stem|aa6f6830a4b91c71|25ca3ebf89d2fa36|61226224405f1970|-259285730||t20711.4465620796s|s3022b|3022|rds|local|vector|||0.113|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
-s2_glm|stem|01d61253910c286a|ed0756ce4c246fa5|72e7d92b82f40aaf|-659314239||t20711.4467520203s|s2358858b|2358858|rds|local|vector|||16.507||
-save_s2_glm_rds|stem|98ac1eec971ce420|5539ff90d20d05d5|a7e27fdf56176c60|-964996146|outputs/s2_glm.rds|t20711.446756658s|s2358864b|2358864|file|local|vector|||0.24||
 s1_glm|stem|24cb885cf6bf388b|5776d8ae4a56425a|af26188ff5032a5a|530405925||t20711.4468769206s|s1685301b|1685301|rds|local|vector|||27.117||
 s1_glm_gof|stem|d6012478190c292d|e8f7dd33e0e39513|4c1d976249cd92fe|869155526||t20711.4468781666s|s180b|180|rds|local|vector|||0.004||
 s2_semi_noSlopeDilemma_glm|stem|276a5c702d82fcff|7bae5deaa4ae67b9|72e7d92b82f40aaf|-1743520155||t20711.4469359118s|s2488132b|2488132|rds|local|vector|||32.354||
 s1_match_item_checks|stem|f1be9b819156a9d2|ca640ae29c039316|f0824c655bb7584e|2003891149||t20711.4469377622s|s2028b|2028|rds|local|vector|||0.086|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
-s1_nationality_heatmap|stem|2804285c77e3ce5f|55977b375a9cdfbd|b751b0ebcf527740|1550737783||t20711.4469683242s|s5302145b|5302145|rds|local|vector|||1.517|st_centroid assumes attributes are constant over geometries. The `annotate.text` theme element is not defined in the element hierarchy.|
 s2_all_glms|stem|07e0db42b3f7759b|4a07570f6e5d02b0|01fd9309ce05c242|535761966||t20711.4474222803s|s11418239b|11418239|rds|local|vector|||73.584||
 s2_model_comp|stem|4906c54fe84fb27a|05e5d5bd73d936f1|b6b75c5069fd43d3|-279486340||t20711.4474479639s|s1049b|1049|rds|local|vector|||1.835||
-s3_clean_data|stem|5fe37c45af5005f1|711f11f53f0ad274|b504e7f203ba462f|164577969||t20711.461297007s|s424043b|424043|rds|local|vector|||0.17||
-s2_model_checks|stem|bc653b918a3cb51d|099afb2832060827|caf13ef7afac4128|-68934917||t20711.4613980602s|s92b|92|rds|local|vector|||10.642|ggrepel: 48 unlabeled data points (too many overlaps). Consider increasing max.overlaps|
-s2_glm_gof|stem|6239e673f6138291|ace4adfda06265d7|b9bc3eaad0c18d56|-660679945||t20711.4614103823s|s180b|180|rds|local|vector|||0.002||
-s2_glm_emms|stem|65becd94b0a75c31|39e7c2ef3744817c|273d9f501fa9a1f9|-1039529849||t20711.461451579s|s318561b|318561|rds|local|vector|||0.165||
-s2_glm_emms_contrasts|stem|136b42269d84f68e|b05c40fa2226536f|fbe8e63ea0f59782|1808915794||t20711.4614532083s|s318719b|318719|rds|local|vector|||0.005||
 s2_test_models_full_PBHxPDE|stem|9359dc7bf09ef278|c939429527861881|d534add389c035fe|1689594831||t20711.4614737671s|s306b|306|rds|local|vector|||0.133||
 s1_model_checks|stem|3859e97b4d99d57a|f343444a23936e42|0fb32926f7a539af|-1584599489||t20711.4615571687s|s92b|92|rds|local|vector|||5.375|NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. Removed 7 rows containing missing values or values outside the scale range (`geom_text_repel()`).. Removed 15 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 15 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 15 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 15 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. ggrepel: 200 unlabeled data points (too many overlaps). Consider increasing max.overlaps|
 save_s1_glm_rds|stem|d2c1fb848e61e9e5|503b51bdb8bb79e3|3290dd89bcc115af|-734590411|outputs/s1_glm.rds|t20711.4615612333s|s1685313b|1685313|file|local|vector|||0.165||
 s1_glm_emms|stem|001098a3e3d27e38|45b9b81dd7ed6da3|1e7590a1780d609b|1856508345||t20711.4616076103s|s159407b|159407|rds|local|vector|||0.176||
 s1_glm_emms_or|stem|d372386ee6308443|5d93b8414b39e1c9|ed1ee694500c313c|-204248971||t20711.4616095326s|s997b|997|rds|local|vector|||0.002||
-s2_glm_emms_or|stem|f1c086faf8918abc|f32fdc94fc63a98d|3e2c74f1e12b2ca7|522597745||t20711.4639676377s|s1000b|1000|rds|local|vector|||0.004||
 s1_glm_emms_contrasts|stem|bc8aaf21c97dc2b4|b4d7ce35b60b872a|00c5c6420b0855f1|-1242289839||t20711.4639679605s|s159553b|159553|rds|local|vector|||0.008||
 s1_all_glms_re|stem|3bb9518e0b99c928|760625a6d6603cf0|dafb4f395807d7bc|2088172612||t20711.4722630619s|s11321918b|11321918|rds|local|vector|||94.298||
 s1_model_comp_re|stem|2296e4e95ad2decc|0c683b7e53cda34f|4405991bacf8e466|-1681069044||t20711.4722938836s|s1289b|1289|rds|local|vector|||2.338||
-s2_semi_glm|stem|34763fa131eb5baa|0c6739b3caac3579|72e7d92b82f40aaf|-701131747||t20711.4728072743s|s2758446b|2758446|rds|local|vector|||142.167||
 s1_all_glms|stem|96754f305ca24376|d298af434ae1e57f|1a5533ee4b6faa48|-1436059306||t20711.4732219966s|s8796750b|8796750|rds|local|vector|||177.743||
 s1_test_models_full_PBHxPDE|stem|777fb8a8b20d4717|d955a2e777487f53|abd7789305e0a626|-1375862113||t20711.4732283828s|s307b|307|rds|local|vector|||0.356||
 s1_model_comp|stem|58fd6a257af0abe7|b3dd46a89d1cad23|c8befc68a4218865|-1968348864||t20711.4732484106s|s1044b|1044|rds|local|vector|||2.124||
@@ -87,46 +53,334 @@ s2_full_glm|stem|46abf9c6dacf3a4b|5ecc7e18c4e19fe7|72e7d92b82f40aaf|-1943189333|
 s2_full_glm_gof|stem|9ca2223ee0c25afb|495d190cdb67d401|d5359592430aa2c2|-1659344834||t20711.4922207829s|s180b|180|rds|local|vector|||0.003||
 s1_full_glm|stem|6585deee05b957cc|4a2c3753271cdb5e|af26188ff5032a5a|33660838||t20711.4945306148s|s1993655b|1993655|rds|local|vector|||1301.858||
 s1_full_glm_gof|stem|65c01b0112d524d6|bc4e18a275175ed4|e1ce34e22b07929e|302985723||t20711.4945313947s|s180b|180|rds|local|vector|||0.002||
-s3_full_glm|stem|8f36efd44f5c72a1|088f22eb56267c9c|b79fc9dd876e5ace|1364077484||t20711.5164930594s|s9729793b|9729793|rds|local|vector|||3199.084||
-s3_full_glm_gof|stem|cc4b298bed889a66|561493f345e1dc58|857e8d45c96bec86|-680554683||t20711.5164974423s|s180b|180|rds|local|vector|||0.005||
-s3_glm_emms|stem|bc061f119ff0b26d|824023b884b0df41|a0655d29cca1df4c|34217015||t20711.5165034441s|s364970b|364970|rds|local|vector|||0.32||
-s3_glm_emms_contrasts|stem|15e655df96d33728|3bf1fcabd3df5ad2|1681cd0f2c525133|2124822322||t20711.5165254136s|s365127b|365127|rds|local|vector|||0.006||
-s3_glm_emms_or|stem|a36c44949d21c734|56aee6b252d79237|64188cf4aac56978|1805226838||t20711.5165596189s|s1003b|1003|rds|local|vector|||0.002||
-s3_glm_gof|stem|cc4b298bed889a66|561493f345e1dc58|857e8d45c96bec86|830943238||t20711.5165605868s|s180b|180|rds|local|vector|||0.006||
-s3_save_glm_rds|stem|35729ddf2132f89c|94d27934b77c879c|beaddd06cd9a384a|1606328825|outputs/s3_full_glm.rds|t20711.5165677277s|s9729795b|9729795|file|local|vector|||0.625||
-s3_model_checks|stem|17fdd895928fd4b7|692daf7b05ab15c3|443cc1b0862c1adb|1012791239||t20711.5174292343s|s89b|89|rds|local|vector|||75.047|NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. Removed 28 rows containing missing values or values outside the scale range (`geom_text_repel()`).. Removed 35 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 35 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 35 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 35 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. ggrepel: 269 unlabeled data points (too many overlaps). Consider increasing max.overlaps|
 s3_f_key_csv|stem|cb47ad87bd71ba12|9a197663da59119a|2c530c1562a7fbd1|1653812760|data_raw/s3_raw_data_f_yes.csv|t20690.4943981481s|s102967816b|102967816|file|local|vector|||3.99|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
 s3_j_key_csv|stem|c2c53509430101aa|cbc52d654513d3b4|2c530c1562a7fbd1|-276361450|data_raw/s3_raw_data_j_yes.csv|t20690.4943518519s|s102361177b|102361177|file|local|vector|||3.989|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
 s2_df|stem|137dff127870d768|1d085fd48f7bc33a|9512b1c576cd9da6|-254764979||t20711.5885494876s|s310544b|310544|rds|local|vector|||0.021||
-combined_df|stem|a7d9ac5272e70897|dfce5dd74a310434|44ba5b68f2efabee|155801461||t20711.5903978174s|s512171b|512171|rds|local|vector|||0.035||
-s3_glm_emms_twoway|stem|7a829e9c272765ec|43604c3d98801161|dc1149d4ebb45e1e|-271876762||t20711.6607502088s|s364776b|364776|rds|local|vector|||0.137||
-s3_glm_emms_twoway_or|stem|10316c949658e140|871e5a9bd7012dfe|bdba97c62717f30e|-1767209712||t20711.6633988119s|s772b|772|rds|local|vector|||0.003||
-s3_glm_emms_twoway_byAgent_contrasts|stem|6c2885cfce2c20ea|10f57e9d3d6eb647|a085fb49f429d570|-1298035368||t20711.6634000131s|s364540b|364540|rds|local|vector|||0.003||
 s1_glm_emms_or_contrasts|stem|69bc91de72bd1424|57090e9f72f62895|77d993b56a6e818f|1644383745||t20711.6645318948s|s827b|827|rds|local|vector|||0.007||
-s2_glm_emms_or_contrasts|stem|a468c52fc6a1c64a|8658011faea2fb00|23a03e0b69f6f11d|2126009875||t20711.6645320941s|s827b|827|rds|local|vector|||0.008||
-s3_glm_emms_or_contrasts|stem|368d2401a12ef17c|d3763aed1ea136d7|9c9071b0e4e3238e|1652177562||t20711.6645321007s|s829b|829|rds|local|vector|||0.008||
 s3_glm_emms_twoway_or_contrasts|stem|8555af48261647de|7a1a9ebe46b477be|46abb2407102d80f|764684672||t20711.6645320248s|s518b|518|rds|local|vector|||0.002||
-s3_glm_emms_twoway_byAgent_or_contrasts|stem|8555af48261647de|7a1a9ebe46b477be|46abb2407102d80f|-692080291||t20711.6675564257s|s518b|518|rds|local|vector|||0.002||
 s1_pwr_toast|stem|eb6ab01da759fc96|15ed51501918d2b1|23a0c7aa2fd50635|-738323643||t20712.4417101655s|s685b|685|rds|local|vector|||0.067||
-s2_pwr_toast|stem|58134698e6658206|998a6d8d64d5aa34|627fe0a5171716cf|606449985||t20712.4417103906s|s664b|664|rds|local|vector|||0.067||
-s2_toast|stem|03680be1f04341ca|1a5c71906a5d7f83|627fe0a5171716cf|-764055256||t20712.4417103798s|s669b|669|rds|local|vector|||0.066||
 s1_toast|stem|b14004f880095e98|27f5fefd0a1f580c|23a0c7aa2fd50635|180714328||t20712.441710166s|s682b|682|rds|local|vector|||0.067||
-s3_toast|stem|daed9ba86879a983|b834ed365924f710|63eac5ada3df800e|-371278498||t20712.4417121267s|s674b|674|rds|local|vector|||0.176||
-s3_pwr_toast|stem|674fd1e903310c6d|d602fe18b1a00e9c|63eac5ada3df800e|857724865||t20712.4417214344s|s673b|673|rds|local|vector|||0.133||
-s1_toast_plot|stem|4afc246dea78f6d8|8674de7121c90858|464e1866a90c4fbd|803248096||t20712.5317144187s|s2470927b|2470927|rds|local|vector|||0.478||
-s2_pwr_toast_plot|stem|fffcb8e18f09a4de|1cafd61a4e22279f|40d1cbca785523cb|2084038919||t20712.5317155733s|s3198826b|3198826|rds|local|vector|||0.452||
-s2_toast_plot|stem|01ba35abb08ff9d5|820f47372d2a86c4|40d1cbca785523cb|-1979562078||t20712.5317155745s|s3198813b|3198813|rds|local|vector|||0.452||
-s1_pwr_toast_plot|stem|c95f6a2da789a672|8bceb22cc22c67de|464e1866a90c4fbd|690674929||t20712.5317155689s|s2470941b|2470941|rds|local|vector|||0.343||
-s3_pwr_toast_plot|stem|2a9af3986b183177|24d096a7dfbe29a1|6e014d8bb7c15df3|700125226||t20712.5317287729s|s10818159b|10818159|rds|local|vector|||0.554||
-s3_toast_plot|stem|2b5bf78c6dd02502|fc8fc19f7a8bedaf|6e014d8bb7c15df3|897721375||t20712.5317404956s|s10820631b|10820631|rds|local|vector|||0.452||
-s1_glm_pred_prob_plots|stem|8cec97c5b13e85c2|7011e09f527ca763|b388a2df744a2287|1340858732||t20712.5493397916s|s3857567b|3857567|rds|local|vector|||1.502|`position_dodge()` requires non-overlapping x intervals.. `position_dodge()` requires non-overlapping x intervals.|
-s2_glm_pred_prob_plots|stem|37db14efdcea0510|d97c2c65fe549ae4|a7077aee7f1461b1|681963898||t20712.5493427998s|s5063140b|5063140|rds|local|vector|||1.439|`position_dodge()` requires non-overlapping x intervals.. `position_dodge()` requires non-overlapping x intervals.|
-s3_glm_pred_prob_plots|stem|797b39667fc7300f|92f2e2b909ca81d7|aa1b0f46bd8fba93|662808133||t20712.5494782491s|s14829730b|14829730|rds|local|vector|||11.763|`position_dodge()` requires non-overlapping x intervals.. `position_dodge()` requires non-overlapping x intervals.|
+s1_linear_pred|stem|9f32ac1e869c38de|a178ec550025053b|7bbcd45b280e3158|1307536147||t20712.5608679453s|s6087371b|6087371|rds|local|vector|||0.992|pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  0. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  4.8799e-29. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  0. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  4.8799e-29. There are other near singularities as well. 1.01|
+s2_interRE_glm|stem|a42455f7e74ef986|168a472202e0d287|72e7d92b82f40aaf|-2015608944||t20712.5719046538s|s2494422b|2494422|rds|local|vector|||58.747||
+s2_semi_interRE_glm|stem|9ec1241690390a37|99f671d178765c4a|72e7d92b82f40aaf|-1783448805||t20712.574903533s|s2610674b|2610674|rds|local|vector|||101.961||
+s2_semi_glm|stem|53c3f509194a14f9|68773fc6dd527001|72e7d92b82f40aaf|-701131747||t20712.5770545967s|s3079984b|3079984|rds|local|vector|||287.799||
+s2_glm|stem|01d61253910c286a|ed0756ce4c246fa5|72e7d92b82f40aaf|-659314239||t20712.5785657812s|s2358858b|2358858|rds|local|vector|||13.187||
+s2_glm_gof|stem|6239e673f6138291|ace4adfda06265d7|b9bc3eaad0c18d56|-660679945||t20712.5786025048s|s180b|180|rds|local|vector|||0.003||
+s2_pwr_toast|stem|58134698e6658206|998a6d8d64d5aa34|627fe0a5171716cf|606449985||t20712.5786070229s|s664b|664|rds|local|vector|||0.076||
+save_s2_glm_rds|stem|98ac1eec971ce420|5539ff90d20d05d5|a7e27fdf56176c60|-964996146|outputs/s2_glm.rds|t20712.5786000634s|s2358864b|2358864|file|local|vector|||0.212||
+s2_glm_emms|stem|65becd94b0a75c31|39e7c2ef3744817c|273d9f501fa9a1f9|-1039529849||t20712.5786096281s|s318561b|318561|rds|local|vector|||0.177||
+s2_glm_emms_or|stem|f1c086faf8918abc|f32fdc94fc63a98d|3e2c74f1e12b2ca7|522597745||t20712.5786184311s|s1000b|1000|rds|local|vector|||0.004||
+s2_glm_emms_contrasts|stem|136b42269d84f68e|b05c40fa2226536f|fbe8e63ea0f59782|1808915794||t20712.5786255432s|s318719b|318719|rds|local|vector|||0.005||
+s2_glm_emms_or_contrasts|stem|a468c52fc6a1c64a|8658011faea2fb00|23a03e0b69f6f11d|2126009875||t20712.5786333134s|s827b|827|rds|local|vector|||0.006||
+s2_linear_pred|stem|7efda2edbfc44689|a1a117ab5141e769|642fddbde2ef3b5b|1390297631||t20712.5786511449s|s8853132b|8853132|rds|local|vector|||1.7|pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  4.6138e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.9715e-29. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  4.6138e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.9715e-29. There are other near singularities as well. 1.01|
+s2_model_checks|stem|bc653b918a3cb51d|099afb2832060827|caf13ef7afac4128|-68934917||t20712.5787167828s|s92b|92|rds|local|vector|||9.244|ggrepel: 48 unlabeled data points (too many overlaps). Consider increasing max.overlaps|
+s2_inter_glm|stem|a42455f7e74ef986|168a472202e0d287|72e7d92b82f40aaf|-1427813000||t20712.5791192238s|s2494422b|2494422|rds|local|vector|||61.001||
+s3_prolific_demo_csv|stem|4b2cbc467c965661|298e2091758c95fb|2c530c1562a7fbd1|-596127884|data_raw/s3_private_prolific_demographic.csv|t20713.4636750603s|s81382b|81382|file|local|vector|||3.418|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
+s3_prolific_raw_demo|stem|366ea9ebf8e080ea|aa5c99543230c721|45a65018a1b65dfc|-2069365542||t20713.4642062493s|s12463b|12463|rds|local|vector|||0.001||
+s3_clean_data|stem|c614ce979e711049|711f11f53f0ad274|94df6b491ea9fffd|164577969||t20713.4642321183s|s425735b|425735|rds|local|vector|||0.149||
+s3_clean_demo|stem|5cf3504e76656810|40983cac707822f4|a9285cbed255a7b1|-1914607134||t20713.4642344522s|s2445b|2445|rds|local|vector|||0.045||
+s3_combined_df|stem|020763e0fc5462b8|e3a8bf4f42002810|0ccb3b566c592e3f|1775823099||t20713.4642442618s|s440787b|440787|rds|local|vector|||0.006||
+s3_keyed_df|stem|763365b7129fff4b|7ea04e9947d29189|b3e9f220244ac244|1750491401||t20713.4642536347s|s583233b|583233|rds|local|vector|||0.021||
+s3_pre_prepdf_silly|stem|cee7bf6bc8d00982|aa423b91ae41b01d|a8cbce450906ec60|-990082212||t20713.4642625665s|s441113b|441113|rds|local|vector|||0.002||
+s3_pre_prepdf|stem|b3e9801498c7dcfb|f5c3f14f16c4fd4b|bef862ddb003c292|1331511821||t20713.4642714145s|s441107b|441107|rds|local|vector|||0.005||
+s3_full_df|stem|6e9c3759a797c624|f58c06f999be4300|30459a3915376bb8|337432366||t20713.46428116s|s376424b|376424|rds|local|vector|||0.019||
+s3_save_full_df|stem|6ed5280951489612|be93afe65e5ea204|f68b4f7d3578bb6c|452143863|data_clean/full_df.csv|t20713.4642896386s|s12387809b|12387809|file|local|vector|||0.146||
+s3_filtered_df|stem|1e7e8c4f896ec1d1|924f22c9be71b1ff|d49c6f8e1b14df75|-462031585||t20713.4642927687s|s357008b|357008|rds|local|vector|||0.012||
+s3_df|stem|574f581a296e95a9|21c917b6df00fca7|5a4dd84681aab289|-2104404787||t20713.4643008265s|s357484b|357484|rds|local|vector|||0.01||
+combined_df|stem|468192ac8368d7bb|dfce5dd74a310434|38dd5e7df5f31d29|155801461||t20713.4643115139s|s513004b|513004|rds|local|vector|||0.139||
+s3_item_level_dilemma_df|stem|740f5820f73ac774|6276af40ed45e50b|d41b68524f018331|-1781528582||t20713.464365876s|s368812b|368812|rds|local|vector|||0.009||
+s3_save_df|stem|b3d8df7a54d6763f|b5b21fe546c05db5|246124b4f6977ada|860744618|data_clean/s3_df.csv|t20713.4643662086s|s11531047b|11531047|file|local|vector|||0.157||
+s3_match_item_checks|stem|86e6db39aef9ec1c|2bc182965f46228f|4f72c96c60fc7deb|800420090||t20713.4643777748s|s3537b|3537|rds|local|vector|||0.049|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
+s3_semi_noSlopeDilemma_glm|stem|f2fcf3741a5d8ef1|9a2eb2a90982c635|0d4c25c3f70fb639|-265174079||t20713.4662491587s|s7664011b|7664011|rds|local|vector|||93.491||
+s3_glm|stem|fc57f2c312fc19d3|6fdb56d512719e0e|0d4c25c3f70fb639|-1462647043||t20713.4662988304s|s7198838b|7198838|rds|local|vector|||60.463||
+s3_glm_emms_twoway|stem|ae076caa7e00a444|43604c3d98801161|ab6d71ed72b9d823|-271876762||t20713.4663149s|s365990b|365990|rds|local|vector|||0.162||
+s3_glm_emms_twoway_byAgent_contrasts|stem|97afdd4cf2561178|10f57e9d3d6eb647|23230ebee4dec276|-1298035368||t20713.4663259439s|s365752b|365752|rds|local|vector|||0.003||
+s3_glm_emms_twoway_or|stem|fc7a940157681502|871e5a9bd7012dfe|1477c6efe92ce33c|-1767209712||t20713.4663316711s|s770b|770|rds|local|vector|||0.002||
+s3_glm_emms_twoway_byAgent_or_contrasts|stem|42ed0216029817ef|7a1a9ebe46b477be|f81aaa2439fecf8f|-692080291||t20713.4663358505s|s521b|521|rds|local|vector|||0.001||
+s3_inter_glm|stem|26b6faeb4a468375|0f3c551ab7161a6a|0d4c25c3f70fb639|-1190988602||t20713.4670630323s|s7408957b|7408957|rds|local|vector|||101.461||
+s3_all_glms|stem|20eca2772975561d|43467a50191a556b|2b6fc98840bb9bf0|1925813820||t20713.4674251148s|s39452183b|39452183|rds|local|vector|||193.119||
+s3_test_models_full_PBHxPDE|stem|6dc50a952ca7f07d|b00def7267565979|f03758b0299a133a|-967123156||t20713.4674386747s|s306b|306|rds|local|vector|||0.146||
+s3_model_comp|stem|d4238bc418dbbf06|34338632111f7151|8f3752f972f3ec44|1229164307||t20713.4674865523s|s1030b|1030|rds|local|vector|||3.779||
+s3_semi_glm|stem|f005becc3b2ed688|24691dd6078f8a3d|0d4c25c3f70fb639|505469973||t20713.4683223919s|s8126959b|8126959|rds|local|vector|||272.724||
+s3_model_comp_re|stem|ca80e3115be4cc30|4cfa9692f6260c44|7fa9573dc239112d|1642926271||t20713.4720250156s|s1151b|1151|rds|local|vector|||5.336||
+s1_power_sens|stem|cd7e962d47502e1b|7caed7e4b2472e48|2c530c1562a7fbd1|-1976266271||t20714.416099661s|s328b|328|rds|local|vector|||161.187|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
+s2_true_veff_pwr_toast|stem|4307765c4fc2c59d|63faf51f858e5048|550a4b1f5fb4a53d|1762736100||t20714.4181574091s|s664b|664|rds|local|vector|||0.074||
+s1_true_veff_pwr_toast|stem|ffea9784e5e7a0d8|8e801f697f9fec41|5859bb36d113cbe3|-397412067||t20714.4183301258s|s670b|670|rds|local|vector|||0.074||
+pmc_cfa_from_efa|stem||614fc732d042716c|66434e483a0f2b95|1724000160||t20714.6406215798s||0|rds|local|vector|||3.453|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|object 'pmc_efa' not found
+s3_full_glm|stem|712a53d2de5147b0|088f22eb56267c9c|0d4c25c3f70fb639|1364077484||t20714.7023442816s|s9763428b|9763428|rds|local|vector|||3257.774||
+s3_full_glm_gof|stem|f07706c988bab205|561493f345e1dc58|c00184e27c33c601|-680554683||t20714.7082218256s|s179b|179|rds|local|vector|||0.005||
+s3_save_glm_rds|stem|232b69846295fec5|94d27934b77c879c|8a2dd3f2b9edf34d|1606328825|outputs/s3_full_glm.rds|t20714.7082303865s|s9763446b|9763446|file|local|vector|||0.748||
+s3_linear_pred|stem|ec776f60b01d4be2|6e9a73c82167271c|37604d3995349187|1076785133||t20714.7084059331s|s28069287b|28069287|rds|local|vector|||14.661|Can't compute random effect variances. Some variance components equal   zero. Your model may suffer from singularity (see `?lme4::isSingular`   and `?performance::check_singularity`).   Decrease the `tolerance` level to force the calculation of random effect   variances, or impose priors on your random effects parameters (using   packages like `brms` or `glmmTMB`).. Can't compute random effect variances. Some variance components equal   zero. Your model may suffer from singularity (see `?lme4::isSingular`   and `?performance::check_singularity`).   Decrease the `tolerance` level to force the calculation of random effect   variances, or impose priors on your random effects parameters (using   packages like `brms` or `glmmTMB`).. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  2.3044e-27. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.593e-26. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  2.3044e-27. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.593e-26. There are other near singularities as well. 1.01|
+s3_model_checks|stem|17fdd895928fd4b7|692daf7b05ab15c3|9e2782e6619163df|1012791239||t20714.709123968s|s89b|89|rds|local|vector|||75.926|NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. Removed 31 rows containing missing values or values outside the scale range (`geom_text_repel()`).. Removed 36 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 36 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 36 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 36 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. ggrepel: 263 unlabeled data points (too many overlaps). Consider increasing max.overlaps|
+mcmurtie_pmc_model|stem|8904704c7d2d06ee|6283c49e28bc4fd4|b39727c0c8f3074d|-1080545627||t20714.7727755145s|s351b|351|rds|local|vector|||1.527|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
+pmc_csv|stem|5de624da1ff4c61a|bcde7aa9fe1404a6|2c530c1562a7fbd1|1659443247|data_raw/s2_pmc_data.csv|t20690.4944212963s|s11614040b|11614040|file|local|vector|||1.526|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
+raw_pmc_data|stem|db8db882de752ab7|aaf71eb494c35a8f|396aea5508ead3dd|541007359||t20714.7727874434s|s774324b|774324|rds|local|vector|||0.265||
+s2_prolific_raw_data_csv|stem|7621b47edad2263f|00d7724f6ecad94d|2c530c1562a7fbd1|-275132351|data_raw/s2_prolific_raw_demo.csv|t20714.7977747295s|s95550b|95550|file|local|vector|||4.114|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
+s2_prolific_demo|stem|2e57ec5704fbe312|f66b770d36a2f42b|d0b5c07b28a5de31|1208443539||t20714.8036435278s|s6513b|6513|rds|local|vector|||0.005||
+s2_demo|stem|40d0f5a497e603d4|f66b770d36a2f42b|772f61773333877b|1514152234||t20714.8103233752s|s2174b|2174|rds|local|vector|||0.001||
+s2_demo_csv|stem|0bd1417734bbc631|492b47f13b9b7cec|2c530c1562a7fbd1|1611908815|data_clean/s2_demo.csv|t20714.8148887144s|s22564b|22564|file|local|vector|||1.428|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
+s2_clean_demo|stem|711d3e67358e30a2|f66b770d36a2f42b|77fa8cb0c4ecd399|-423047709||t20714.8175075014s|s2303b|2303|rds|local|vector|||0.001||
+s3_95_power_sens|stem|34248a0fcf0b14cd|ae5e8c9d42365e76|2c530c1562a7fbd1|-1846176479||t20717.4440601191s|s294b|294|rds|local|vector|||3.801|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3. package ‘lavaan’ was built under R version 4.4.3. package ‘semTools’ was built under R version 4.4.3|
+s3_power_sens|stem|34248a0fcf0b14cd|4566435bfec4d655|2c530c1562a7fbd1|-1689093360||t20717.4440601199s|s294b|294|rds|local|vector|||3.8|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3. package ‘lavaan’ was built under R version 4.4.3. package ‘semTools’ was built under R version 4.4.3|
+s2_veff_intersect|stem|f3d9935cfdc9007f|b3a49f11630cf9af|b76ac73e0c3bd078|-2053623773||t20717.4721396647s|s55b|55|rds|local|vector|||0||
+s1_veff_intersect|stem|62fbaf0ec1bf018a|9663cbf7fc2d8d0a|b3ce5bd6cfb5bb1d|-141148788||t20717.4721396762s|s55b|55|rds|local|vector|||0.001||
+s3_veff_intersect|stem|a0956c9b63be9726|946ad4702c64048a|8ff5001091e15a6f|841109834||t20717.472139785s|s55b|55|rds|local|vector|||0||
+pmc_agency_dimension_glm|stem|d7f02c47ed974447|3b8f000cb11af466|5692e8ce26fa9d33|-86810807||t20718.4542145037s||10124021|rds|local|vector|||0.002||could not load dependency mod_df of target pmc_agency_dimension_glm. invalid 'description' argument
+pmc_experience_dimension_glm|stem|049e329b31980549|3a22864a18664ae0|65733cc81102dd57|-1740213993||t20718.6489160948s|s10161390b|10161390|rds|local|vector|||1514.834||
+s3_glm_pred_prob_plots|stem|9b85dac41036c45a|57d95e8657d8b856|57f4de3e0bf181aa|662808133||t20747.6302411293s|s13623190b|13623190|rds|local|vector|||3.751||
+s1_glm_pred_prob_plots|stem|738da0531053430f|fa2b2e2907e5688d|e7e450ea2b46ede5|1340858732||t20747.6302689561s|s4659654b|4659654|rds|local|vector|||2.961||
+s2_glm_pred_prob_plots|stem|ecd13e8600bf23ef|25dfcf740a31c375|8b9107c0d83536c5|681963898||t20747.6302723571s|s5961164b|5961164|rds|local|vector|||2.812||
+s2_pwr_toast_plot|stem|02bb02708ce7b376|1cafd61a4e22279f|bc05d78cdf22fbbf|2084038919||t20747.6330710787s|s3213991b|3213991|rds|local|vector|||0.617||
+s2_toast_plot|stem|be1f5805d177beec|820f47372d2a86c4|bc05d78cdf22fbbf|-1979562078||t20747.6330711673s|s3213979b|3213979|rds|local|vector|||0.602||
+s2_true_veff_pwr_toast_plot|stem|58e8bcd984da857b|e7c8183c147b200f|7c21179eb6ea7506|757911964||t20747.6330712835s|s3214038b|3214038|rds|local|vector|||0.628||
+s1_true_veff_pwr_toast_plot|stem|37a103ef4d91ce2b|acbcf593f06675e7|0989c9a3f3272b4b|-767679686||t20747.6330790555s|s2489399b|2489399|rds|local|vector|||0.624||
+s1_pwr_toast_plot|stem|7bb91c20c8e16ebc|8bceb22cc22c67de|d9865ecbc5a819fc|690674929||t20747.6330788482s|s2489419b|2489419|rds|local|vector|||0.619||
+s3_95_toast_plot|stem|ae08cdb03ff6d75a|107fc1684c4cbd8c|815f6feb0c395c80|1229485250||t20747.6330974273s|s8284129b|8284129|rds|local|vector|||0.604||
+s1_toast_plot|stem|9d8e9183a090f8d5|8674de7121c90858|d9865ecbc5a819fc|803248096||t20747.6331182486s|s2489405b|2489405|rds|local|vector|||0.422||
+s3_toast_plot|stem|dfe799d281b3ec0e|186235a1c5ed8ed9|23d4e61240e06f91|897721375||t20747.6331226835s|s8284078b|8284078|rds|local|vector|||0.665||
+s3_pwr_toast_plot|stem|a1ff02a4d879faea|bc368fc008ffc656|23d4e61240e06f91|700125226||t20747.6331228476s|s8284105b|8284105|rds|local|vector|||0.688||
+s3_true_veff_pwr_toast_plot|stem|19f19a85993cdd6b|7e6445ae36021a6e|96cdc56c94f6cd43|-959160910||t20747.6331288952s|s8284141b|8284141|rds|local|vector|||0.382||
+s1_inter_glm|stem|20c904184f8b6279|00ff0cf0ef873abc|af26188ff5032a5a|-1135880130||t20748.4912492311s|s1646235b|1646235|rds|local|vector|||23.344||
+s1_dropAgentInter_glm|stem|8425b5f7a462e52e|e3cebd41d5ab2a89|af26188ff5032a5a|732863764||t20748.4914156434s|s1717495b|1717495|rds|local|vector|||40.624||
+pmc_agency_med_glm|stem||109e2ec1e11ad5b7|50dabf290f480db7|-251624688||t20748.7301311995s||0|rds|local|vector|||0.925||y values must be 0 <= y <= 1
+clean_pmc_data|stem|4f94879a26a204be|2d8fe346f882194f|6e7b6d78cf3301c7|1840810526||t20749.6151645304s|s143287b|143287|rds|local|vector|||0.047||
+pmc_df|stem|e120d6d26bcde1bc|3f1e96fedc8d97f4|964762d8fc4636a6|635325446||t20749.6154244032s|s137199b|137199|rds|local|vector|||0.016||
+s2_power_sens|stem|23c52518ad13fb1d|43b4200e7ff0aebf|2c530c1562a7fbd1|-514465063||t20714.416099537s|s264b|264|rds|local|vector|||161.223|package ‘tibble’ was built under R version 4.4.3. package ‘dplyr’ was built under R version 4.4.3. package ‘purrr’ was built under R version 4.4.3. package ‘lme4’ was built under R version 4.4.3. package ‘ggplot2’ was built under R version 4.4.3. package ‘emmeans’ was built under R version 4.4.3. package ‘parameters’ was built under R version 4.4.3. package ‘see’ was built under R version 4.4.3. package ‘performance’ was built under R version 4.4.3. package ‘tidyr’ was built under R version 4.4.3. package ‘data.table’ was built under R version 4.4.3. package ‘paran’ was built under R version 4.4.3|
+s2_raw|stem|0c273929e910de61|47642cc9d0b9bbe2|7645cb1bbc0a6ff7|-1462567742||t20711.4457175926s|s247930b|247930|rds|local|vector|||0.06||
+s3_95_veff_intersect|stem|e07b7455e23bca06|dd92531d5a63dcfb|a7a89343ae124f47|848062038||t20717.4721296296s|s55b|55|rds|local|vector|||0||
+s2_toast|stem|03680be1f04341ca|1a5c71906a5d7f83|627fe0a5171716cf|-764055256||t20712.578587963s|s669b|669|rds|local|vector|||0.045||
+s3_all_glms_re|stem|f263fe11c3ede33c|663e350ae0fd955b|ccc1719d5ee44ad5|-1543194014||t20713.4719444444s|s61288078b|61288078|rds|local|vector|||582.365||
+save_pmc_df|stem|e731d2a93f4427e4|826c4b492c8901f5|1ccb87d3e04fdc03|816821156|data_clean/pmc_df.csv|t20753.4531940777s|s1758970b|1758970|file|local|vector|||0.93||
+pmc_efa_AI_baseline|stem|2645abebbec48018|8d408dd82c78cca5|14bbc7f835f30b5a|1666476819||t20753.4531994593s|s261618b|261618|rds|local|vector|||1.402|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
+pmc_scree|stem|2d04274d7de94306|08aaf858cf7fa4a8|9d4ffb4cbdc23895|1298919687||t20753.4532001059s|s706603b|706603|rds|local|vector|||1.292|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`. Removed 22 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 22 rows containing missing values or values outside the scale range (`geom_point()`).|
+pmc_cfa_AI_baseline|stem|16dec201e702c0b6|801531de1605f3c9|87530163cd29ca5f|421125253||t20753.453214218s|s53634b|53634|rds|local|vector|||2.653||
+pmc_cfa|stem|8e2e501cf66f6711|b7f91748f87e123d|87530163cd29ca5f|-2050980896||t20753.4532170079s|s53600b|53600|rds|local|vector|||1.424||
+pmc_scree_AI_baseline|stem|0906e4ad5c3f4a39|a8f217b476818681|9d4ffb4cbdc23895|549619812||t20753.4532188934s|s710841b|710841|rds|local|vector|||0.478|Removed 22 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 22 rows containing missing values or values outside the scale range (`geom_point()`).|
+pmc_efa|stem|21d7ccff19130d44|4ff216420de50010|14bbc7f835f30b5a|670846034||t20753.4532242499s|s261555b|261555|rds|local|vector|||0.908|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
+heatmap_mcmurtie_pmc|stem|f58167225bfdd381|0c332ae960f7a105|13f2a68d998c87e8|662153291||t20753.4532282839s|s40775b|40775|rds|local|vector|||0.34|font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database|
+pmc_efa_model|stem|d81903fa4973be6d|614fc732d042716c|4fcd1dd25704fbf1|-858889048||t20753.4532343683s|s329b|329|rds|local|vector|||0.011||
+pmc_items_by_factors|stem|72b677351856b886|2587235234559b2d|d861522e2272890b|1818252988||t20753.4532360212s|s1210b|1210|rds|local|vector|||0.055||
+pmc_pre_prep_efa_df|stem|f4cc6be8427b09e7|d2ce7b569062b7ba|22cdbbcbfd54621c|1718008643||t20753.4532483056s|s153781b|153781|rds|local|vector|||0.049||
+pmc_efa_cfa|stem|8558bba7bac07ed5|2780c370e90bed25|abbbd7ba5d238022|1521263621||t20753.4532582812s|s55126b|55126|rds|local|vector|||1.408||
+pmc_efa_df|stem|543eb8514bf136b5|20e403a782fa283d|9d3aadad03773c4a|-522015844||t20753.453258289s|s144152b|144152|rds|local|vector|||0.008||
+pmc_efa_cfa_AI_baseline|stem|d14a662e732925bc|47dcab9611186287|abbbd7ba5d238022|-1227649282||t20753.4532597313s|s55171b|55171|rds|local|vector|||1.225||
+avg_mcmurtie_pmc_dimension_id|stem|e3d513b531c02d46|51555b755f049cb7|4552c4a99fe73e97|-1233282370||t20753.4532657971s|s3974b|3974|rds|local|vector|||0.01||
+avg_pmc_dimension_id|stem|d2654874dc810227|a42f46a65e6138be|f853eef64a390577|-1932759338||t20753.4532718934s|s3418b|3418|rds|local|vector|||0.009||
+heatmap_efa_cfa_pmc|stem|b4e5a55efeb4c76f|ef0b3472f34fb766|98c53a91fa49c175|368660019||t20753.4532724732s|s40784b|40784|rds|local|vector|||0.339|font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database. font family 'Georgia' not found in PostScript font database|
+avg_pmc_id|stem|538b223b2013031b|7d41d6cbe3e3bd90|3fa56fa09715b5f2|103462873||t20753.4532758985s|s2657b|2657|rds|local|vector|||0.005||
+avg_pmc_efa_good_id|stem|023c8d7c6d67badd|015735ddf542f31c|251a6ec9e0349b2f|2103807598||t20753.4532790091s|s3874b|3874|rds|local|vector|||0.012||
+avg_pmc_efa_id|stem|cc3996f6c772ef29|03a44c58eff5ae8b|7d270b987edf1a2a|1867504465||t20753.453283787s|s3873b|3873|rds|local|vector|||0.011||
+avg_pmc_item_id|stem|3ec29ca481e53bf2|ec36b1a11dcbdcdc|16acaef900a93949|-654298221||t20753.4532872888s|s10198b|10198|rds|local|vector|||0.049||
+save_pmc_efa_df|stem|2c27d85a98933ac7|e3e3cffcda7b6dfe|cf0c0a98bc35c72e|1392119719|data_clean/pmc_efa_df.csv|t20753.4532913342s|s2085216b|2085216|file|local|vector|||0.829||
+pre_mod_df|stem|7ef11523b780b69e|8698656ef96cd375|1c39cfd4d75f8731|-2035008535||t20753.4532977981s|s414587b|414587|rds|local|vector|||0.026||
+mod_df|stem|c278c91a6fdb5bd2|63ec7583b6100f22|2c9ea98480ddc68e|-1203682777||t20753.4533080177s|s420441b|420441|rds|local|vector|||0.018||
+save_pmc_mod_df|stem|55eb6fe10744d379|bc710c0535ab4830|42689989fff35962|994047038|data_clean/pmc_mod_df.csv|t20753.4533321588s|s21857042b|21857042|file|local|vector|||1.477||
+pmc_agency_glm|stem|dc5af3f6c1a8a454|3b8f000cb11af466|7c4c90e65c793912|-694219320||t20753.4546750141s|s10104280b|10104280|rds|local|vector|||115.44||
+pmc_factor_2_glm|stem|b59106857a9db2b8|9b5f55a034c44339|7c4c90e65c793912|1907207317||t20753.4547013391s|s10106358b|10106358|rds|local|vector|||118.234||
+pmc_agency_toast|stem|274389bc38464434|e7998b17f7350ee0|ae0a8bf4bd77ef62|2140599189||t20753.4547104483s|s999b|999|rds|local|vector|||0.229||
+pmc_agency_toast_plot|stem|974db0a903498946|6ea2e0a9eb2c12a1|1c14d043d0aa7660|-1614271061||t20753.4547477704s|s11377557b|11377557|rds|local|vector|||0.825||
+pmc_factor_2_toast|stem|9a69f26a3a3cdb2e|f8db440c4e60c1fb|b4d98388dae490bb|-1927565510||t20753.4548131145s|s1006b|1006|rds|local|vector|||0.303||
+pmc_factor_2_toast_plot|stem|b57bcb286a5d4c68|7b032bc917f608f4|50cfe7429fae071b|-2068783979||t20753.454835757s|s11374973b|11374973|rds|local|vector|||1.011||
+pmc_agency_pred_prob_plot|stem|e339c83c0332642d|dc38b8a06358262d|36240fdc07702c17|2015054556||t20753.455038428s|s52324641b|52324641|rds|local|vector|||16.44||
+pmc_factor_2_pred_prob_plot|stem|5a72d63d386e773a|008d4e1e87e158b7|dbe8b1cee1e6398d|-1982852021||t20753.4550866254s|s52314879b|52314879|rds|local|vector|||10.519||
+pmc_experience_glm|stem|257fbde506d9652c|3a22864a18664ae0|7c4c90e65c793912|-1079246709||t20753.456410164s|s10119615b|10119615|rds|local|vector|||261.379||
+pmc_experience_toast|stem|feb5145ae0a00a6d|a509fd546bec9ce9|40f475b5f18c1c2e|-186363872||t20753.456438819s|s1035b|1035|rds|local|vector|||0.103||
+pmc_experience_toast_plot|stem|319b259e37df847d|b3a5d914cc59b107|e9740c1e0eadbda4|-1374623016||t20753.4564484193s|s11393852b|11393852|rds|local|vector|||0.491||
+pmc_factor_3_glm|stem|7cf6bd69b30e2408|e3e7d712bad8a879|7c4c90e65c793912|561074175||t20753.4564563959s|s10108213b|10108213|rds|local|vector|||268.731||
+pmc_factor_3_toast|stem|a95a7488c9068a0c|06477da428612f70|f0802906ee2caa3d|-133397414||t20753.456537594s|s1044b|1044|rds|local|vector|||0.277||
+pmc_factor_3_toast_plot|stem|72ec11c5a0f71566|f7a24a260722c503|695adfb9418dc3f9|39339478||t20753.4566570062s|s11380656b|11380656|rds|local|vector|||0.738||
+pmc_experience_pred_prob_plot|stem|7922dfcdd00bcf1d|fd812f2ac0221857|2bd54381456f93f1|-1290450359||t20753.4568786862s|s52320778b|52320778|rds|local|vector|||13.169||
+pmc_factor_3_pred_prob_plot|stem|3c5ed7f3024a7879|c43d32a657599f3e|3ab55b95d4213af4|1104468079||t20753.4569121365s|s52194705b|52194705|rds|local|vector|||17.917||
+pmc_factor_1_glm|stem|f2947307c74ce9f9|347d399e54d7696f|7c4c90e65c793912|-1547955761||t20753.4611214495s|s10116766b|10116766|rds|local|vector|||396.509||
+pmc_factor_1_toast_plot|stem|3df7136204889505|7a1959a0fcdbf83a|dbfaa0ff98e5e57a|-191305467||t20753.4611492934s|s11387752b|11387752|rds|local|vector|||0.467||
+pmc_factor_1_toast|stem|fe99c943e0dd936a|f633ccb5fd89cbd2|58fab71c684ee08e|612689148||t20753.4611586062s|s1048b|1048|rds|local|vector|||0.072||
+pmc_factor_1_pred_prob_plot|stem|59dd83c09699a42c|971d0f9e66dc658c|abe4cb6ee9c62d34|2125489131||t20753.4613790341s|s52270956b|52270956|rds|local|vector|||8.2||
+prep_cat_df|stem||5ba94a57f58f8aae|ce38a1e92544c24e|1961113725||t20753.4810172285s||0|rds|local|vector|||0.024||$ operator is invalid for atomic vectors
+pre_prep_pmc_cat_df|stem|50d1b604c44691cd|5ddd89cf2dee0641|a4fb341536f6a37d|863721401||t20753.4864870421s|s421063b|421063|rds|local|vector|||0.006||
+pmc_cat_df|stem|3bbb511f0805c4fb|566a6379569008c9|7254d063dc6f8547|-1431751670||t20753.4883253221s|s421570b|421570|rds|local|vector|||0.029||
+save_pmc_cat_df|stem|d58c1c810488498e|8298d0ec82f95948|b8d83aa6a7d97b69|-1929097716|data_clean/pmc_cat_df.csv|t20753.4883415058s|s22494328b|22494328|file|local|vector|||0.574||
+all_pmc_glms|stem|7c697299095b4cdf|888423fafa1f984c|48184cc4ea327052|1143534437||t20753.498452718s|s95163138b|95163138|rds|local|vector|||647.776||
+pmc_model_comp|stem|dd80b1433d678bff|85c16da471607073|a6e425cbb98cc71a|-1623033277||t20753.498564216s|s1829b|1829|rds|local|vector|||8.26|longer object length is not a multiple of shorter object length|
+pmc_cat_glm|stem|522bc37f2f1b63a5|fed7a4875dbbc639|e3f3927d6310336e|1724194945||t20753.8818673041s|s12507992b|12507992|rds|local|vector|||325.32||
+logTransform_hist_plots|stem|ac5c7a5e4d5f8109|b71b5fdff26bc436|79af085072accb33|-1250571987||t20754.4557245217s|s12677201b|12677201|rds|local|vector|||0.366||
+s2_df_logRT|stem|81ef54ee3084ad6d|bc3c2de4e08aca3c|2dbd4eab52877ab9|223151013||t20754.456804808s|s408422b|408422|rds|local|vector|||0||
+logTransform_noConstant_hist_plot|stem|720c1865b4b251d7|8cc4388ab2d6c8ca|394796fde1319cf9|-51027970||t20754.4568124881s|s2436977b|2436977|rds|local|vector|||0.18||
+s2_glm_logRT_DV|stem|7a39e768911121c0|a15decdc2d83d515|34333a43dd029a3b|-658743659||t20754.4597872884s|s1228243b|1228243|rds|local|vector|||0.861|calling glmer() with family=gaussian (identity link) as a shortcut to lmer() is deprecated; please call lmer() directly|
+s2_glm_logRT_DV_gof|stem|24a85d69e5c382fa|1940b81751e2c4fd|4c75631209617a8d|2126124618||t20754.4611020222s|s179b|179|rds|local|vector|||0.002|deviance() is deprecated for REML fits; use REMLcrit for the REML criterion or deviance(.,REML=FALSE) for deviance calculated at the REML fit. deviance() is deprecated for REML fits; use REMLcrit for the REML criterion or deviance(.,REML=FALSE) for deviance calculated at the REML fit|
+s2_glm_logRT_RI|stem|46c6d208b906f2f1|e3724b72e69c38bf|34d5618ef17af9e6|257836293||t20754.4640678927s|s4283872b|4283872|rds|local|vector|||28.074||
+s2_glm_logRT|stem|4f1249c2158ed2dc|7995fad506f40f42|34d5618ef17af9e6|-2079525585||t20754.4640982394s|s4455826b|4455826|rds|local|vector|||30.737||
+test_models_s2_logRT|stem|5118e3b0c81f775e|b3d1ad736ccf8b31|845043b3febc8896|-1409601451||t20754.464116739s|s251b|251|rds|local|vector|||0.664||
+s2_glm_logRT_gof|stem|61f0e1431cf53f7e|9d5d971f5a858312|c3efed3d0079cab3|-1147506441||t20754.4641119695s|s180b|180|rds|local|vector|||0.024||
+s2_logRT_toast|stem|45b678dd52369ef0|4049a7311a60bb23|81cb82262191b058|-1137128301||t20754.4641202783s|s1021b|1021|rds|local|vector|||0.065||
+model_comp_s2_logRT|stem|a3e62a2ce9aecf30|19c46dbf4b4c9355|7df1811d3e8c84d2|1154493240||t20754.4641466536s|s502b|502|rds|local|vector|||0.397||
+s2_logRT_toast_plot|stem|9565c15f87649a57|2b53e24b3aff517c|042bae775f2651b5|-1263099037||t20754.4705074669s|s5513726b|5513726|rds|local|vector|||0.502||
+s2_glm_logRT_pred_prob_plots|stem|3fb09bc8e3501496|77bf89e01077e0c8|1acef7c6d6a22892|1980196||t20754.470596667s|s31510049b|31510049|rds|local|vector|||5.102||
+s1_logTransform_noConstant_hist_plot|stem|8343267f3e978762|352f360c36535f7a|aa3f2a28841f8d3f|-371228984||t20754.4736044696s|s1479195b|1479195|rds|local|vector|||0.27||
+s2_logTransform_noConstant_hist_plot|stem|720c1865b4b251d7|8cc4388ab2d6c8ca|394796fde1319cf9|-263879090||t20754.4736066463s|s2436977b|2436977|rds|local|vector|||0.251||
+s1_logTransform_hist_plots|stem|b937bce44a03310c|5356dc0682feb86e|d6cc0bf3aa82adda|-1190243852||t20754.473624212s|s7540709b|7540709|rds|local|vector|||0.487||
+s2_logTransform_hist_plots|stem|ac5c7a5e4d5f8109|b71b5fdff26bc436|79af085072accb33|1411676392||t20754.4736371032s|s12677201b|12677201|rds|local|vector|||0.459||
+s1_df_logRT|stem|a0fab16029b2580e|d16fb0f87b973077|6ed44a923328bd5c|-1110401747||t20754.47694293s|s207860b|207860|rds|local|vector|||0||
+s1_glm_logRT_DV|stem|be9a48fecdba9fe2|01aa33b9374946c6|1514b0f0c2f8cd61|930836389||t20754.4769830476s|s718043b|718043|rds|local|vector|||0.294|calling glmer() with family=gaussian (identity link) as a shortcut to lmer() is deprecated; please call lmer() directly|
+s1_glm_logRT_DV_gof|stem|c21388126aee2052|2fe009b4239bdf84|5d333c8145eefed8|394209861||t20754.4769929542s|s179b|179|rds|local|vector|||0.001|deviance() is deprecated for REML fits; use REMLcrit for the REML criterion or deviance(.,REML=FALSE) for deviance calculated at the REML fit. deviance() is deprecated for REML fits; use REMLcrit for the REML criterion or deviance(.,REML=FALSE) for deviance calculated at the REML fit|
+s1_glm_logRT_RI|stem|61837b3fea5f64a7|3e3057d5ac6c3d2e|6981bc398b60f19b|-1622807043||t20754.4770763619s|s2525333b|2525333|rds|local|vector|||10.483||
+s1_glm_logRT|stem|d53cc10f9bdc52d9|eb65d128e9075c13|6981bc398b60f19b|587059263||t20754.4770987217s|s2550928b|2550928|rds|local|vector|||10.237||
+s1_logRT_toast|stem|b4b7e96bd52b1b34|25fffa10e35c5005|aea06962ed06536a|-1140026137||t20754.4771092958s|s1055b|1055|rds|local|vector|||0.059||
+model_comp_s1_logRT|stem|80237d5c07204c3f|36cd51fcd4e1b0ed|bf3f150efd90ac38|-1230310569||t20754.4771204748s|s505b|505|rds|local|vector|||0.568||
+s1_glm_logRT_gof|stem|bb33ff0234240a2d|564ee198f08c17e4|a91a7cfdf91f3088|11396902||t20754.4771190082s|s180b|180|rds|local|vector|||0.002||
+s1_logRT_toast_plot|stem|28b114273c12ba05|aa21259a1a26d6b3|c66385a5e1bae8f5|-1849709892||t20754.4771248606s|s3460199b|3460199|rds|local|vector|||0.919||
+test_models_s1_logRT|stem|e31a9b68e8a9230f|ce7907f2ca3b61de|e2afe0687f47918e|1084103615||t20754.4771264766s|s252b|252|rds|local|vector|||0.16||
+s1_glm_logRT_pred_prob_plots|stem|c7eba72814c7d8d5|a8aade94098099f0|ed59480f15e1c5bd|-1806710771||t20754.4772137581s|s20111128b|20111128|rds|local|vector|||5.044||
+s3_save_timeout_df|stem|c5ed97acdb7a0040|3025247c44148b3a|b12d1cdfe2586a20|-1531095055|data_clean/s3_timeout_df.csv|t20754.5556972228s|s578010b|578010|file|local|vector|||0.014||
+create_correct_incorrect_dv_with_timeout|function|d616666fa8208489
+s3_preprep_timeout_df|stem|e85d8925999f2b54|00fe4cf2a9f9bbcf|c10f79272511e241|1258792294||t20754.5986094755s|s392082b|392082|rds|local|vector|||0.024||
+s3_timeout_df|stem|e14059dc6d9546ee|aab1f171fe42ec5f|53d83bf5045af4d9|228339411||t20754.5993707994s|s392066b|392066|rds|local|vector|||0.024||
+s3_saved_timeout_df|stem|4a592359d6563b9d|3025247c44148b3a|22931c38c3a32aa0|1577404533|data_clean/s3_timeout_df.csv|t20754.5994089175s|s12733480b|12733480|file|local|vector|||0.18||
+s3_correct_glm|stem|141c21a2a72be767|aafa460b9ec080f7|3ba7ab45ca09e3e7|1803390758||t20754.5999653732s|s7446862b|7446862|rds|local|vector|||50.003||
+s3_correct_toast|stem|d8f467eaf9705140|21b3266a67bb8c45|2469e30ef1717c50|-1042489325||t20754.5999772768s|s667b|667|rds|local|vector|||0.065||
+s3_correct_toast_plot|stem|0175c4cb9b4ae0fc|f80aac0df2883147|cecd0ea2129ad88a|1345953100||t20754.5999973601s|s8552170b|8552170|rds|local|vector|||0.342||
+s3_correct_glm_pred_prob_plots|stem|2ed4c85a509198b1|177f7953dd984b20|b9954b07ec12ccd6|770578027||t20754.6000427786s|s14150415b|14150415|rds|local|vector|||2.778||
+s3_timeout_glm|stem|05ecf3b9a06533af|a9eadcc407620332|3ba7ab45ca09e3e7|1415684652||t20754.6046472377s|s4567646b|4567646|rds|local|vector|||8.517||
+s3_timeout_toast|stem|c7fe77e7721bae9c|e2d69a1ba4c1dd92|3af3fe62af537826|-1732862082||t20754.6046579356s|s627b|627|rds|local|vector|||0.068||
+s3_timeout_toast_plot|stem|faf50f79c31f32eb|896ad35ce35a1620|4328e0562084480d|-2022357777||t20754.6046781214s|s5645831b|5645831|rds|local|vector|||0.611||
+s3_timeout_glm_pred_prob_plots|stem|66b51c215450d2e7|4699547d008ff915|7079cd74e51bdec6|371076422||t20754.6754914273s|s10585028b|10585028|rds|local|vector|||2.777||
+mod_one_row_df|stem|5ba3e01c0bdb12a7|127a07847d020890|53dec3acf7b58cce|1875376737||t20754.6872085513s|s10228b|10228|rds|local|vector|||0.028||
+pmc_mean_ratings|stem|ccc84c378f5ab39f|2714afa7d78cd112|108ae8a8f376ad42|1918995320||t20754.6924178471s|s586b|586|rds|local|vector|||0||
+pmc_dissimilarity_matrix|stem|e9c2912602f8a74e|ad55f2ca4ab83421|32b4270deb1f92aa|-109416919||t20754.692427293s|s2410b|2410|rds|local|vector|||0.001||
+pmc_mds|stem|cfa1a92bcae8270f|9e6561030ef9b604|688b7dd1af17620b|733739399||t20754.6936658643s|s1213b|1213|rds|local|vector|||0.001||
+pmc_hierarchical_clustering|stem|49e60ed370f0ad26|99a861afe5794c6a|217514a055546483|-2083303513||t20754.7005701263s|s1179b|1179|rds|local|vector|||0.186||
+pmc_mds_plot|stem|8946a642a7c451bb|d090e50f5f419f59|cb7a9d04c88e4a1d|867292682||t20754.7062998554s|s95b|95|rds|local|vector|||0.371||
+pmc_inter_glm|stem|8019f08a9de38bc6|3ae0b203a52b78c5|7c4c90e65c793912|-1542783050||t20755.6181904739s|s11281816b|11281816|rds|local|vector|||844.076||
+pmc_inter_quadratic_glm|stem|ca4df0ac1cb11390|b003149c7d8e6280|7c4c90e65c793912|1185953765||t20755.6519413725s|s13869175b|13869175|rds|local|vector|||3759.986||
+s1_passed_cr|stem|91dcc168ee2fe87e|7f9245ec4357b3c8|82198b4db4ed1eaf|1233420610||t20756.6847160889s|s547b|547|rds|local|vector|||0.044||
+s2_passed_cr|stem|0fe07690ae7ced32|b9c8074b0a03c7ac|6df06e5b4bf42efa|182558165||t20756.6847161671s|s698b|698|rds|local|vector|||0.033||
+s3_passed_cr|stem|bb847fc66cb29a10|6d1bfa15db5a349f|34dc40967dfa8304|-1809263206||t20756.6847162413s|s1580b|1580|rds|local|vector|||0.038||
+s1_passed_df|stem|d0ea571214218137|10cbbcb842daa861|47ac848514ad9211|937162691||t20756.7193927897s|s73751b|73751|rds|local|vector|||0.028||
+s2_passed_df|stem|18cd70b852ff1e37|f82855027041781b|c96487c7ba50499e|1936887701||t20756.7193935952s|s305038b|305038|rds|local|vector|||0.03||
+s3_passed_df|stem|4993ad55d693e6a6|e3b51724129b384a|b8fa1f11494d3f66|-1498374675||t20756.7193950633s|s338783b|338783|rds|local|vector|||0.031||
+s1_passed_save_df|stem|8fa653900346db1a|454e7a62494ecda5|3c10c75fe64d1b23|1862469819|data_clean/s1_passed_df.csv|t20756.7194042078s|s1390204b|1390204|file|local|vector|||0.027||
+s2_passed_save_df|stem|e902c7164e80c8d2|6b50431a07476050|42f7dd071ba6114f|-2015357118|data_clean/s2_passed_df.csv|t20756.7194185936s|s6758693b|6758693|file|local|vector|||0.084||
+s3_passed_save_df|stem|23c530faafe794b7|e9d022ce69460bcc|14454759e5d0e3a2|-1801293415|data_clean/s3_passed_df.csv|t20756.7194514756s|s10781998b|10781998|file|local|vector|||0.14||
+s1_passed_glm|stem|7d887b1f7a9ee0bc|e0e245d35da169f1|43351c920bdf91d4|126363317||t20756.7196845274s|s688197b|688197|rds|local|vector|||23.875||
+save_s1_passed_glm_rds|stem|459f5424656c75a9|398b64a18f484adf|4c25dd7a37c284ca|-8184774|outputs/s1_passed_glm.rds|t20756.7196939909s|s688209b|688209|file|local|vector|||0.07||
+s3_passed_glm|stem|32c08e3b5e406b5c|b3245043bde768c0|5ffb668212d0c1cc|768518557||t20756.7198609257s|s6784445b|6784445|rds|local|vector|||37.21||
+save_s3_passed_glm_rds|stem|7b4c846200adbc5c|aead64121cb13d7a|f4e6d487ceb09df7|319653595|outputs/s3_passed_glm.rds|t20756.7198777987s|s6784461b|6784461|file|local|vector|||0.462||
+s2_passed_glm|stem|7e702d024a26b811|dcab9a4d4c9cee54|4e48fd8b91827792|1852786195||t20756.7199743308s|s2551830b|2551830|rds|local|vector|||48.396||
+save_s2_passed_glm_rds|stem|8ff18701983034ef|6faceddb6aa3a364|3947fdfdf6799ca1|1551493777|outputs/s2_passed_glm.rds|t20756.7199866715s|s2551842b|2551842|file|local|vector|||0.214||
+s2_passed_item_level_dilemma_df|stem|2128e0277ae8cdea|b58ff69b31dd0629|7fd485683198d20e|23594746||t20756.7557785477s|s307922b|307922|rds|local|vector|||0.005||
+s2_passed_pwr_toast|stem|a5219bbbe5d1cdb1|315a8f2a924ff347|18c985abcbcfc1e6|1516899395||t20756.7558046949s|s665b|665|rds|local|vector|||0.129||
+s2_passed_95_pwr_toast|stem||f39a69b0d0cf04bb|18c985abcbcfc1e6|1313705093||t20756.7558077169s||0|rds|local|vector|||0.027||object 's2_passed_95_veff_intersect' not found
+s2_passed_match_item_checks|stem|f89ab2a678573577|1938947191e48232|18ec30aff092f3de|1715321062||t20756.7570762518s|s3007b|3007|rds|local|vector|||0.081|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
+s2_passed_glm_emms|stem|774fba78ddaf0bb8|40164100572848ba|0f0a0f8aa0393989|-36602483||t20756.7570853728s|s312701b|312701|rds|local|vector|||0.191||
+s2_passed_glm_gof|stem|c722fb56eb9e7b98|234d456c920e612b|adf15c71e5bb3eb4|-1444306946||t20756.7570984969s|s180b|180|rds|local|vector|||0.003||
+s1_passed_item_level_dilemma_df|stem|f3168ee2b8e98eea|41933e24a2271dce|cd58720276e9dc31|-1956125149||t20756.7570914004s|s74521b|74521|rds|local|vector|||0.004||
+s2_passed_glm_emms_twoway|stem|3dde199a90cc017f|847ceec6bd7c70ac|0f0a0f8aa0393989|-520017606||t20756.7571105401s|s312509b|312509|rds|local|vector|||0.149||
+s1_passed_glm_gof|stem|b347c78a09d6f04e|955ed9fc4f7174b3|209892b2cb70ac0c|-288097681||t20756.7571183613s|s180b|180|rds|local|vector|||0.001||
+s2_passed_linear_pred|stem|83968a1c8298ade8|ceca59cc7c7a5a14|459878e6bb105e16|1363501294||t20756.7571258206s|s9081600b|9081600|rds|local|vector|||2.358|pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.4993e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.6023e-27. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.4993e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.6023e-27. There are other near singularities as well. 1.01|
+s1_passed_pwr_toast|stem|a4dba99e405bad71|e5e69e66a7d133f4|d9cd4baf402a0b16|-165875563||t20756.7571258822s|s681b|681|rds|local|vector|||0.047||
+s1_passed_glm_emms_twoway|stem|f23a6379e031bcf1|a87d720aa6dd7473|ce115fb1ad61ddd4|-359378176||t20756.7571375014s|s81633b|81633|rds|local|vector|||0.159||
+s2_passed_toast|stem|811fb5d21ded578b|c8fc74dc8bc9f8d8|18c985abcbcfc1e6|-432676288||t20756.757152052s|s669b|669|rds|local|vector|||0.08||
+s1_passed_linear_pred|stem|e0cbc1d955702087|2db74ff1bc2a9f47|bde700511a8a9825|1816077167||t20756.7571612767s|s3280234b|3280234|rds|local|vector|||0.727|Can't compute random effect variances. Some variance components equal   zero. Your model may suffer from singularity (see `?lme4::isSingular`   and `?performance::check_singularity`).   Decrease the `tolerance` level to force the calculation of random effect   variances, or impose priors on your random effects parameters (using   packages like `brms` or `glmmTMB`).. Can't compute random effect variances. Some variance components equal   zero. Your model may suffer from singularity (see `?lme4::isSingular`   and `?performance::check_singularity`).   Decrease the `tolerance` level to force the calculation of random effect   variances, or impose priors on your random effects parameters (using   packages like `brms` or `glmmTMB`).. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  0. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.2348e-29. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  0. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.2348e-29. There are other near singularities as well. 1.01|
+s1_passed_toast|stem|b90e8aeeb9477774|86058b343f535ff4|d9cd4baf402a0b16|-1780682447||t20756.7571679333s|s677b|677|rds|local|vector|||0.119||
+s1_passed_glm_emms|stem|b18f720e5e51a5eb|bf0ed0ae88c32fac|ce115fb1ad61ddd4|-1881692742||t20756.7571606696s|s81822b|81822|rds|local|vector|||0.162||
+s2_passed_glm_emms_agent_contrasts|stem|267738da28e345f9|ce7a512730dd640e|0e0999ef0c83e104|1317551270||t20756.7571769673s|s312327b|312327|rds|local|vector|||0.008||
+s2_passed_glm_emms_or|stem|046fcd44989cfe60|430133d091ff07fe|2c2c025ed98b13d3|935897700||t20756.7571872934s|s1008b|1008|rds|local|vector|||0.007||
+s1_passed_match_item_checks|stem|f6d06998161fa948|07aa3e8118513c1d|96573ed5a3909c8d|-30370966||t20756.7571935195s|s1956b|1956|rds|local|vector|||0.064|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
+s2_passed_glm_emms_twoway_or|stem|4e1379c2cc6b1a37|329a61fca7076487|b9d1226b6d135fa7|-373954402||t20756.7571974731s|s771b|771|rds|local|vector|||0.001||
+s1_passed_model_checks|stem|17fdd895928fd4b7|4e98dbac08ae0519|bbab201242a6d68c|1491595400||t20756.757199191s|s89b|89|rds|local|vector|||5.955|NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. Removed 13 rows containing missing values or values outside the scale range (`geom_text_repel()`).. Removed 31 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 31 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 31 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 31 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. ggrepel: 95 unlabeled data points (too many overlaps). Consider increasing max.overlaps|
+s2_passed_glm_emms_twoway_byAgent_contrasts|stem|34254e5eeea78ad5|3f3854e17502a2c8|3586720d20a14720|-1583184669||t20756.7572041581s|s312284b|312284|rds|local|vector|||0.002||
+s1_passed_glm_emms_twoway_byAgent_contrasts|stem|919bae3eadc8607f|f663fd8a4859670d|a722f818ba5e4896|-2040944273||t20756.7572086214s|s81394b|81394|rds|local|vector|||0.003||
+s2_passed_glm_emms_contrasts|stem|2e1e2bad5c54af3c|54bd1b8d212c03e8|cc09bd69064c104d|1960676245||t20756.7572074616s|s312855b|312855|rds|local|vector|||0.027||
+s1_passed_glm_emms_twoway_or|stem|fe89c7674d832c09|de56e91facb48a1f|0e0ac771882b272f|-831389198||t20756.7572182117s|s772b|772|rds|local|vector|||0.002||
+s1_passed_glm_emms_contrasts|stem|64b61e34c861d033|5298784d5575a6c5|8f5678aa7e33a2e8|1060494342||t20756.7572240241s|s81975b|81975|rds|local|vector|||0.006||
+s1_passed_glm_emms_agent_contrasts|stem|c14b83f5e30d4e56|b3d58179949c8304|eb1ea8212f3068ae|-815488945||t20756.7572207746s|s81434b|81434|rds|local|vector|||0.001||
+s1_passed_glm_emms_or|stem|238e758c29f25268|b45564033b58f786|3706cc0765d30f79|147638593||t20756.7572327599s|s1011b|1011|rds|local|vector|||0.002||
+s2_passed_glm_emms_or_agent_contrasts|stem|7fa6e857d92a324a|375d391067af65d8|78941ac471603eb3|-1536923005||t20756.757235889s|s593b|593|rds|local|vector|||0.004||
+s2_passed_glm_emms_twoway_byAgent_or_contrasts|stem|0b36e5d90f5d1950|e3793398f53c2ab6|bef698eb6cc0ca4d|981929064||t20756.7572406671s|s521b|521|rds|local|vector|||0.006||
+s1_passed_glm_emms_twoway_byAgent_or_contrasts|stem|edb9f39fdca1ed85|e5e70529b67bfd65|77750570e059eefb|-1783026605||t20756.7572474314s|s520b|520|rds|local|vector|||0.001||
+s1_passed_glm_emms_or_contrasts|stem|38ae5ed4e59b2508|b5c2e0d8c2703940|ba59c6201b3a5394|580144209||t20756.757254892s|s828b|828|rds|local|vector|||0.006||
+s2_passed_model_checks|stem|17fdd895928fd4b7|6051bf467a35596d|cbe9c6df048998b5|728693476||t20756.7572564059s|s89b|89|rds|local|vector|||11.2|NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. NaNs produced. Removed 106 rows containing missing values or values outside the scale range (`geom_text_repel()`).. Removed 178 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 178 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 178 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 178 rows containing missing values or values outside the scale range (`geom_line()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. Removed 1 row containing missing values or values outside the scale range (`geom_text()`).. ggrepel: 158 unlabeled data points (too many overlaps). Consider increasing max.overlaps|
+s2_passed_glm_emms_or_contrasts|stem|85608564c1437be8|04d6fa086c2d6b62|d3f62b3b2cf35745|1393836147||t20756.7572555826s|s829b|829|rds|local|vector|||0.006||
+s1_passed_glm_emms_or_agent_contrasts|stem|74b4552656f82256|541e518835a3f923|e2598681697f2165|2066791609||t20756.7572606188s|s591b|591|rds|local|vector|||0.001||
+s3_toast|stem|50dae5ea7a07aff2|9952d9772dbc1677|654ec03a1e354982|-371278498||t20756.7572720133s|s665b|665|rds|local|vector|||0.112||
+s3_glm_emms|stem|54d66dd2c56d64e9|50c1c5da43aecaf4|ab6d71ed72b9d823|34217015||t20756.7572741038s|s366200b|366200|rds|local|vector|||0.232||
+s3_true_veff_pwr_toast|stem|09b790c506adbad6|9cadf9f361468211|ad4329067f4d4a5a|-1032304144||t20756.7572832743s|s666b|666|rds|local|vector|||0.065||
+s3_glm_gof|stem|f3fb2164b66cbcdb|a9d7ee72ff42855f|3912394f13012536|830943238||t20756.757280007s|s181b|181|rds|local|vector|||0.005||
+s3_pwr_toast|stem|ea517c107de2f972|005218ae2d3b7e98|654ec03a1e354982|857724865||t20756.7572907114s|s666b|666|rds|local|vector|||0.064||
+s3_95_pwr_toast|stem|af4c4929984ef58f|d0bb249a943bf2de|74296ecaf31e154b|398451830||t20756.7572919505s|s666b|666|rds|local|vector|||0.06||
+s3_glm_emms_or|stem|fef9188d129a657d|56aee6b252d79237|31f871d6634284b0|1805226838||t20756.7572961129s|s993b|993|rds|local|vector|||0.001||
+s3_glm_emms_contrasts|stem|899e9e29bc9878b5|3bf1fcabd3df5ad2|1e61ca4c93200a81|2124822322||t20756.7573054926s|s366354b|366354|rds|local|vector|||0.008||
+s3_glm_emms_agent_contrasts|stem|6cd578a3b8433bd7|ab82de3826693793|b523991d7b8e07c6|-1285391511||t20756.7573025525s|s365797b|365797|rds|local|vector|||0.002||
+s3_passed_item_level_dilemma_df|stem|115b84e8778d2bdb|0488ceb91aeb98ad|ec56d53bfa401ab4|1652872117||t20756.7573146463s|s349004b|349004|rds|local|vector|||0.009||
+s3_passed_glm_gof|stem|e0ce42a77955d7aa|192a19c8c33316a9|49c73de8341c63df|1506152539||t20756.7573417691s|s180b|180|rds|local|vector|||0.025||
+s3_passed_toast|stem|a9c09c03c1bb53a9|b736523726d0133c|4b94ca38a7788552|1109394188||t20756.7573319905s|s664b|664|rds|local|vector|||0.078||
+s3_passed_glm_emms_twoway|stem|daef2cf10215011a|3ef6007dd3a69cc5|d9cd71045527c909|-605667919||t20756.7573548849s|s347438b|347438|rds|local|vector|||0.256||
+s3_passed_pwr_toast|stem|75165f2b6cc67acb|8601841de7948ac3|4b94ca38a7788552|-1995527252||t20756.7573626122s|s668b|668|rds|local|vector|||0.108||
+s3_glm_emms_or_contrasts|stem|ba29b7e61b1938df|d3763aed1ea136d7|d1528f2f58b86e20|1652177562||t20756.7573880674s|s827b|827|rds|local|vector|||0.024||
+s3_passed_glm_emms|stem|c3aa0e90ceddc4f6|b9defb02c1d0cbae|d9cd71045527c909|-1074360316||t20756.7573823714s|s347641b|347641|rds|local|vector|||0.479||
+s3_glm_emms_or_agent_contrasts|stem|9891ae42d109f44c|e40ef4e67e727392|21df49bd8191e1f3|697164364||t20756.7573958122s|s593b|593|rds|local|vector|||0.003||
+s1_passed_all_glms|stem|4ef7d4cb30f13aad|3f74ba8a4ae50df0|743caba5b1f33b33|-28013905||t20756.7574046572s|s3136044b|3136044|rds|local|vector|||25.772||
+s3_passed_match_item_checks|stem|fc0659bd5fba6333|dae07ba391acbe71|d58ae47eb6671e64|-497027168||t20756.7574058701s|s3479b|3479|rds|local|vector|||0.049|Use of .data in tidyselect expressions was deprecated in tidyselect 1.2.0. ℹ Please use `all_of(var)` (or `any_of(var)`) instead of `.data[[var]]`|
+s3_passed_glm_emms_twoway_byAgent_contrasts|stem|76f5e0ee4173a95c|58931797dd4f14a1|9b5edace73af6b00|527843334||t20756.7574122466s|s347205b|347205|rds|local|vector|||0.005||
+s3_passed_glm_emms_twoway_or|stem|1c83b6a318a799e2|a0c79a579e24bb37|c20ed13c58779891|1174285884||t20756.7574411568s|s773b|773|rds|local|vector|||0.003||
+s3_passed_glm_emms_agent_contrasts|stem|5ac899421eb11632|d0f535f92d3f92c1|40d4f4d006d69d85|-1834417098||t20756.7574730828s|s347249b|347249|rds|local|vector|||0.004||
+s3_passed_glm_emms_or|stem|c99ebfef1538a4aa|8a67fddbae96c559|779f62394d061174|142212962||t20756.7575321816s|s996b|996|rds|local|vector|||0.004||
+s3_passed_glm_emms_contrasts|stem|3852db54186583a8|f6f4a7e0f6fafaa4|4ddb3c0990e59b1f|-1926569012||t20756.7575447535s|s347799b|347799|rds|local|vector|||0.032||
+s3_passed_glm_emms_twoway_byAgent_or_contrasts|stem|999ab9e05958524b|6eebba540dc9665b|b38bad29965caf4d|1279733197||t20756.7575537021s|s517b|517|rds|local|vector|||0.012||
+s3_passed_glm_emms_or_agent_contrasts|stem|8aeab05ffc8a0711|8b0cafc0ce3deb61|9a68d1c4cb918618|-524202420||t20756.7575585874s|s591b|591|rds|local|vector|||0.007||
+s1_passed_model_comp|stem|b793f93467820dbc|a1bd02985e22f76b|c7bf0fcf392bd365|-1129747077||t20756.7575585027s|s1055b|1055|rds|local|vector|||1.312||
+s3_passed_glm_emms_or_contrasts|stem|5b8b7bd8ab0e77fe|74c16f9a3438191a|59e33c327afb5112|-67194080||t20756.757561215s|s826b|826|rds|local|vector|||0.007||
+s1_passed_test_models_full_PBHxPDE|stem|a4bf76bbdca8ea1f|3944d2deab9b5ad8|96016ad450c61d22|1280160053||t20756.7575753249s|s251b|251|rds|local|vector|||0.234||
+s3_passed_linear_pred|stem|d9c95e4c5995ec78|57c1ce914e251bb4|e1ecfee5a92d538c|226907089||t20756.7576157413s|s24163233b|24163233|rds|local|vector|||8.514|pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  5.9514e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  5.913e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  5.9514e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  5.913e-28. There are other near singularities as well. 1.01|
+s3_passed_model_checks|stem|17fdd895928fd4b7|0456e0bcdd69f7b0|2aa4203366665d5e|2036258996||t20756.7581010703s|s89b|89|rds|local|vector|||53.102|ggrepel: 117 unlabeled data points (too many overlaps). Consider increasing max.overlaps|
+s1_passed_all_glms_re|stem|043aaa6458257758|4d830d274e956a2c|9a494c430cf449a8|1795229220||t20756.758246111s|s4269161b|4269161|rds|local|vector|||60.751||
+s1_passed_model_comp_re|stem|88760aec845f0b9d|8497a596b5c318d7|a28c495c69e3f7f6|-289901428||t20756.7582721214s|s1284b|1284|rds|local|vector|||1.448||
+s2_passed_all_glms|stem|59025fe5b2df2de9|29720c8c6da9e6a8|c69a010daa155d2d|-734174831||t20756.7583358502s|s11618127b|11618127|rds|local|vector|||66.315||
+s2_passed_test_models_full_PBHxPDE|stem|61f0df426fddb4a9|d07556cf1961a41d|18c6041176791b3a|1552907174||t20756.7583495009s|s250b|250|rds|local|vector|||0.166||
+s2_passed_model_comp|stem|1b60ae6387d2779b|1823f874b8f0da70|43ff9e3b9a860fa5|-63770611||t20756.7583671385s|s1047b|1047|rds|local|vector|||1.306||
+s3_passed_all_glms|stem|653f7ad7281d9015|6674d13d64f429a0|e447c7c214bde0c7|2119392976||t20756.7594366677s|s37136740b|37136740|rds|local|vector|||158.77||
+s3_passed_test_models_full_PBHxPDE|stem|3cd26b2b01f4b1a1|ed7dbf2856b5dc3c|fa8aaec7088b2795|35978829||t20756.7594559456s|s250b|250|rds|local|vector|||0.204||
+s3_passed_model_comp|stem|5d3663c347505bc4|5de3dad2b451c898|12819ab04363a87e|-1258708809||t20756.7594921351s|s1038b|1038|rds|local|vector|||3.407||
+s2_passed_all_glms_re|stem|f452f98bc11fe439|349f7be711a87cd0|f09e7f25f623f654|13412037||t20756.7600865624s|s18588241b|18588241|rds|local|vector|||226.817||
+s2_passed_model_comp_re|stem|e79251cb7e39bd44|faccc62430c70381|f3a3888dfc29dd7d|-565374619||t20756.7601207028s|s1217b|1217|rds|local|vector|||1.834||
+s3_passed_all_glms_re|stem|cde45521fbd14eac|17e5d631a05058b8|423e299093feb4ee|1767317128||t20756.7640189859s|s57742065b|57742065|rds|local|vector|||560.964||
+s3_passed_model_comp_re|stem|2bf8353a7806e999|3fb658cafe0351e6|42b7ec64ebdc6703|-801934988||t20756.7640861802s|s1162b|1162|rds|local|vector|||4.727||
+s1_passed_glm_pred_prob_plots|stem|5754d3dc6b4fd768|cd84c2a18c470964|693e502dddd4580b|-1282258246||t20756.8314984848s|s3236848b|3236848|rds|local|vector|||2.105||
+s2_passed_glm_pred_prob_plots|stem|78aa087d7bae1cd1|b3a728736f3657c6|0a5bd6cac7286d01|-1557039902||t20756.8315045972s|s6212611b|6212611|rds|local|vector|||2.078||
+s3_passed_glm_pred_prob_plots|stem|02853e731033c3c1|3d9e4b3586573fb4|e452082d86e2e1fa|965646347||t20756.8315264971s|s13260372b|13260372|rds|local|vector|||2.756||
+s1_passed_toast_plot|stem|29a295460660f608|e4235094281864a0|1f08e28b5c8b3a72|1688098127||t20756.8336209072s|s1443190b|1443190|rds|local|vector|||0.486||
+s2_passed_toast_plot|stem|0c94a823ab79b573|be1312e027b4cc95|43d73045c705e188|-562466906||t20756.8336231256s|s3404770b|3404770|rds|local|vector|||0.458||
+s3_passed_toast_plot|stem|4ca2de2ec498eba3|8e73125560cbbb33|e42aa96fd58adb78|249449421||t20756.8336271495s|s7850149b|7850149|rds|local|vector|||0.474||
+pmc_glm|stem|fbd07f814be0ef68|2effef997da7611d|7c4c90e65c793912|202806469||t20759.4189157599s|s10123795b|10123795|rds|local|vector|||218.014||
+pmc_glm_emms_twoway|stem|5ae873dfb6ec46f1|6030e945903828e8|94302e93f76fc5a1|1807928247||t20759.4189287798s|s430034b|430034|rds|local|vector|||0.166||
+pmc_glm_emms|stem|a6a1e07fcf664598|b854d0982d5c3e4e|94302e93f76fc5a1|-1309966752||t20759.4189401448s|s430905b|430905|rds|local|vector|||0.442||
+pmc_glm_emms_twoway_Agent|stem|f94e10014d976764|211e7e6f00b639cc|94302e93f76fc5a1|-1849613683||t20759.4189498392s|s430027b|430027|rds|local|vector|||0.283||
+pmc_glm_emms_twoway_or|stem|39d7a7c7d86a2e9b|95f34c950f957ad2|6eb3fd1f14e6c3ce|1299212073||t20759.4189539726s|s802b|802|rds|local|vector|||0.003||
+pmc_glm_emms_or|stem|ecf7eb57d2e7111e|8356dfbfd0a73970|76797d99a7b690c1|2085359489||t20759.4189678041s|s1528b|1528|rds|local|vector|||0.002||
+pmc_glm_emms_contrasts|stem|86b8bc1bcde6f779|bbda413bc00789e6|7751999575f5348b|-1269896001||t20759.4189620581s|s430831b|430831|rds|local|vector|||0.011||
+pmc_glm_emms_twoway_byPMC_overall_contrasts|stem|ce85bcd9b64a3291|d89d31980bc30516|305e0feadacc027c|-1027066688||t20759.4189789747s|s429723b|429723|rds|local|vector|||0.003||
+pmc_toast|stem|bb428bea7f3123eb|c92ccba04a35baf2|fc90e5c3ae3c858e|-1826670368||t20759.4189788567s|s1032b|1032|rds|local|vector|||0.235||
+pmc_glm_emms_twoway_Agent_or|stem|11ca1907fb22ff67|5b6ced7fb7e4e6f6|3035c8c1e6df3671|-1159534733||t20759.4189740071s|s799b|799|rds|local|vector|||0.001||
+pmc_glm_emms_twoway_Agent_byPMC_overall_contrasts|stem|1e5ab12a3121e008|3819536ce6d61246|b42c50cf64d59d55|1123984071||t20759.4189815137s|s429720b|429720|rds|local|vector|||0.003||
+pmc_glm_emms_twoway_PDE|stem|9e5a3aa849bc7aae|c4407f5b372781d8|94302e93f76fc5a1|1595531234||t20759.4189817275s|s430038b|430038|rds|local|vector|||0.319||
+pmc_glm_emms_twoway_byPMC_overall_or_contrasts|stem|a82a8227e058be42|54d228badbac26cc|391beaf2718e6474|-1840876490||t20759.4189892255s|s533b|533|rds|local|vector|||0.001||
+pmc_glm_emms_or_contrasts|stem|dc87f2dd57ab5346|6b7a90fc4f3333d8|6033c9db3fd554b2|1856360479||t20759.4189849953s|s1019b|1019|rds|local|vector|||0.009||
+pmc_glm_emms_twoway_Agent_byPMC_overall_or_contrasts|stem|351d905c937f730f|aa2a913dc7d60183|53beab32e324849b|-1518052331||t20759.4189933326s|s536b|536|rds|local|vector|||0.001||
+pmc_glm_emms_pmc_overall_contrasts|stem|1db15be47c2f2ce1|c8a3f92b7937a540|faa3e5519f7d2bad|715274836||t20759.4189935663s|s429883b|429883|rds|local|vector|||0.005||
+pmc_glm_emms_twoway_PDE_byPMC_overall_contrasts|stem|ed439aa1816db1bd|48f1feb078afdcd2|4ba18aad48c9546c|-741771315||t20759.4189964211s|s429724b|429724|rds|local|vector|||0.002||
+pmc_glm_emms_twoway_PDE_or|stem|f3bd33afd4087fd7|f1749593b5258a46|c414ce15a765024c|-678315393||t20759.4189987213s|s803b|803|rds|local|vector|||0.001||
+pmc_glm_emms_or_pmc_overall_contrasts|stem|bf8c7530b5a1230d|41f50159f88e84fe|081b2367460d2d06|1148220160||t20759.4190038047s|s649b|649|rds|local|vector|||0.001||
+pmc_glm_emms_twoway_PDE_byPMC_overall_or_contrasts|stem|e0df6810ea465d1b|824273d19fa6478c|4fa6765a7903e240|773902416||t20759.4190062031s|s530b|530|rds|local|vector|||0.001||
+pmc_toast_plot|stem|2faf7ce36b4ec900|c255122b471da3e2|2c6cb6f7251b7464|1983765851||t20759.4190140178s|s11393693b|11393693|rds|local|vector|||0.838||
+pmc_overall_pred_prob_plot|stem|31722e70e4f16d17|0df1290f716519fa|a79e884703ba9702|1342501525||t20759.4191913298s|s52352182b|52352182|rds|local|vector|||8.183||
+pmc_quadratic_glm|stem|4b2c7c37b2fc8f3f|1fe3a745a7d9d376|7c4c90e65c793912|-91219906||t20759.4492689687s|s12677945b|12677945|rds|local|vector|||2390.026||
 s1_set2_col|object|90ceb734e2a20424
 set_theme|function|d0ae9330bea98179
+one_row_per_mod_df|function|7f4679aa81de3266
 read_in_csv|function|2ee2534d10e89165
 s2_rev|object|7c51c65a28651402
+conduct_confirmatory_factor_analysis|function|fa40a1cd8d13e338
 s2_set2_prolific_raw_demo|object|66d669f82e655308
+find_veff_intersect|function|f9f659c2affaeb11
 check_linear_pred|function|5eb53c5647ccb5d5
 clean_demo_data|function|e9e1de638cd866c4
 set1_v_set2|object|2c530c1562a7fbd1
@@ -134,8 +388,8 @@ s3_tidy_df_cols|function|3af58930df9bfb18
 s1_set4_j_yes|object|6a3b3829bcdce89a
 s2_set1_prolific_raw_demo|object|a19a659d784dc3f9
 set1_v_set3|object|2c530c1562a7fbd1
-avg_pmc_efa_good|function|3b67c892e0e37c6b
 set1_v_set4|object|2c530c1562a7fbd1
+avg_pmc_efa_good|function|3b67c892e0e37c6b
 one_row_per_df|function|b44a693a2a8e9bd2
 create_df_with_logRT|function|8e420d28d2d0abad
 correct_df_with_mg_key|function|3de797ae5ff602ee
@@ -143,16 +397,25 @@ join_s1_s2|function|83b1ebaf180a127d
 plot_pmc_predicted_probabilities|function|961003eb7a4b97ab
 avg_pmc|function|c323aa621fe2ed10
 s1_prolific_raw_demo|object|e4044413b07cc4d6
+conduct_principal_component_analysis|function|fae6bbb5ec740c09
+perform_classical_mds|function|ffce95f0e13f3678
 s3_separate_response_DVs|function|6617025e420c5b6a
 check_goodness_of_fit_via_deviance|function|8291b0ebf3da5d1c
 swap_keys_because_im_silly|function|80f5024428c369ec
+build_cfa_from_fa|function|683c09a6124984a5
 combine_keys_to_one_df|function|90121abac891deae
+convert_pmc_to_category_var|function|7bf708d2e289ebc8
+make_pretty_scree_plot|function|84cb0b0ea2aa7bae
 tidy_s1_vars|function|b8923fa02a95f434
 create_df_for_item_level_checks|function|f42bf0a4d349ddf8
 set4_v_set1|object|2c530c1562a7fbd1
 set4_v_set2|object|2c530c1562a7fbd1
 set4_v_set3|object|2c530c1562a7fbd1
 s1_set1_f_yes|object|b7277bfc21db1bf1
+perform_hierarchical_clustering|function|69921c4cf6cba4f1
+plot_logTransform_histogram|function|472e74a3cd4b1036
+compute_mean_ratings|function|aba2f17f50872533
+prep_for_pmc_cat_mods_analysis|function|7d1af3210035566f
 s1_set2_f_yes|object|d551113b45825021
 s2_set1_col|object|90ceb734e2a20424
 fit_lmer|function|97fe590e4443d10c
@@ -160,24 +423,27 @@ prep_for_pmc_analysis|function|1ab057c0172e79c5
 get_emmeans|function|c08cd2c046894566
 plot_predicted_probability|function|71c39879f6b51749
 s1_set4_f_yes|object|ceb1ec74e0668d5e
+plot_mds_results|function|17497990981af4f7
 get_all_contrasts|function|60c930c7cd05d301
 s1_f_yes|object|14380f5225cd2e8e
-plot_toast|function|fec8de13cb9602cd
+prep_for_pmc_mods_analysis|function|5e12e982b2b97928
+plot_toast|function|7adc26be8b0281e2
 set3_v_set1|object|2c530c1562a7fbd1
 check_item_difficulty|function|72f548a5861444f0
 set3_v_set2|object|2c530c1562a7fbd1
 convert_contrasts_OR|function|7b9ac7b5e8e87a4f
-s1_set3_col|object|90ceb734e2a20424
 set3_v_set4|object|2c530c1562a7fbd1
-make_nationality_heatmap_for_s1|function|b03bac26853ae330
+s1_set3_col|object|90ceb734e2a20424
+make_nationality_heatmap_for_s1|function|229856cfa455480b
 s2|object|2c530c1562a7fbd1
 fit_all_glmer|function|32e9b0dcc7482328
 convert_emmeans_OR|function|360aaa36a426f277
 s1_set3_j_yes|object|6a3b3829bcdce89a
+compute_dissimilarity_matrix|function|2921cc4c132a86fe
 avg_mcmurtie_pmc_dimension|function|3731f994b0579f3e
 s1_set4_prolific_raw_demo|object|bbf14faf5ad112c0
 run_toast_test|function|858c475126b1bbec
-avg_pmc_efa|function|a5ce95c1e90beea7
+avg_pmc_efa|function|5efb842852dbbbd0
 s1_set1_col|object|90ceb734e2a20424
 set_colours_object|function|81e8e64cb31ba749
 set2_v_set1|object|2c530c1562a7fbd1
@@ -193,34 +459,38 @@ fit_all_glmer_RE|function|86da0c39ff28837d
 s1_set1_prolific_raw_demo|object|ef00a1d3fb74233a
 plot_pmc_by_items|function|d052f66c70cbf540
 s2_set2_col|object|42d6cb988f334420
-add_demo_to_pmc_df|function|1a9952cb547f11c9
-plot_predicted_probabilities|function|366eca0d234e6a31
+add_demo_to_pmc_df|function|03caefc2970ae3af
+plot_predicted_probabilities|function|9464edc416e9e885
 join_df_demo|function|baaa8ca6e14c94b7
 join_s1_s2_s3|function|70046e1004e3d88e
 conduct_model_diagnostics|function|a29b2102750abb40
 s1_s2_clean_raw_data|function|2870f74eafb9ec73
 test_two_models_performance|function|32d76cfb7988e51e
 fit_glmer|function|3962103bb1ba827c
-add_efa_factor_cats_to_pmc_df|function|0487130ad1bbac43
+create_timeout_df|function|c462c6c25369f81c
+add_efa_factor_cats_to_pmc_df|function|45c07136ba4fc8fb
 fix_dfs|function|2e0f2c7b5ff43c32
 plot_logTransform_constant_histograms|function|9142bd762ea0737a
 assign_manually_entered_s1_data_to_categorical_vars|function|15d4c40f9fe2394c
 s1_set3_prolific_raw_demo|object|dc1ad9ee67e1084b
 s2_prolific_raw_demo|object|8f4878e23e61b911
+prep_for_timeout_analysis|function|933cb23a3f6a1ddf
 avg_pmc_dimension|function|7d84ad7c75be4e1f
+create_df_without_participants_who_failed_all_ac|function|1d68306f2eb724d2
+calculate_number_of_participants_failed_attention_check|function|c3d9aa6eba797612
 s1_j_yes|object|50a06780bc022d08
 compare_models|function|5d3ac71bf2a8a3c7
+create_pmc_heatmap|function|2b2ad76159fc05bb
 s1_set4_col|object|90ceb734e2a20424
 s3_add_demo_to_df|function|43af608ffa0949ca
 s3_remove_timeout_responses|function|fa07bea73a7deb2a
-create_item_by_factor_summary|function|58c53521618cbdb3
-clean_pmc_raw_data|function|a4613d9bbf978ff3
-s1_set1_j_yes|object|9e94f9d0fb226606
+create_mcmurtie_pmc_model|function|9439d3188e375d6f
+clean_pmc_raw_data|function|9462facac25cc32f
+create_item_by_factor_summary|function|cce50732d4551073
 s1_set3_f_yes|object|ceb1ec74e0668d5e
+s1_set1_j_yes|object|9e94f9d0fb226606
 s3_clean_raw_data|function|bd1d0dc6d917ca37
-s1_set2_j_yes|object|b737655079bf9597
+conduct_exploratory_factor_analysis|function|e16002a651ba89fd
 get_two_way_contrasts|function|7af55e4072f644e8
-conduct_exploratory_factor_analysis|function|5a21da3331b8a132
-s1_linear_pred|stem|9f32ac1e869c38de|a178ec550025053b|7bbcd45b280e3158|1307536147||t20712.5608679453s|s6087371b|6087371|rds|local|vector|||0.992|pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  0. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  4.8799e-29. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  0. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  4.8799e-29. There are other near singularities as well. 1.01|
-s2_linear_pred|stem|7efda2edbfc44689|a1a117ab5141e769|642fddbde2ef3b5b|1390297631||t20712.5608762953s|s8853132b|8853132|rds|local|vector|||1.374|pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  4.6138e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.9715e-29. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  4.6138e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  1.9715e-29. There are other near singularities as well. 1.01|
-s3_linear_pred|stem|c29ad01be92b2d97|6e9a73c82167271c|68db72a0004f9f51|1076785133||t20712.5610235172s|s27982767b|27982767|rds|local|vector|||12.435|Can't compute random effect variances. Some variance components equal   zero. Your model may suffer from singularity (see `?lme4::isSingular`   and `?performance::check_singularity`).   Decrease the `tolerance` level to force the calculation of random effect   variances, or impose priors on your random effects parameters (using   packages like `brms` or `glmmTMB`).. Can't compute random effect variances. Some variance components equal   zero. Your model may suffer from singularity (see `?lme4::isSingular`   and `?performance::check_singularity`).   Decrease the `tolerance` level to force the calculation of random effect   variances, or impose priors on your random effects parameters (using   packages like `brms` or `glmmTMB`).. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  3.272e-27. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  2.7534e-28. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  3.272e-27. There are other near singularities as well. 1.01. pseudoinverse used at 0.995. neighborhood radius 1.005. reciprocal condition number  2.7534e-28. There are other near singularities as well. 1.01|
+s1_set2_j_yes|object|b737655079bf9597
+s1_nationality_heatmap|stem|6c21e8ab34ea73d1|55977b375a9cdfbd|7db39e0ddcb688b2|1550737783||t20760.4488693621s|s5134551b|5134551|rds|local|vector|||1.256|st_centroid assumes attributes are constant over geometries. The `annotate.text` theme element is not defined in the element hierarchy.|

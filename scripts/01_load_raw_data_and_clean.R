@@ -564,7 +564,25 @@ s3_tidy_df_cols <- function(df){
                   Stimuli_List,PMC_Stimuli_List, Context, Dilemma, PBH, PDE, Agent, BA, MC, Intent, MG, MJ,RT)
   df
 }
-
+#### categorize responses as correct v incorrect (and add timeout as incorrect)
+create_timeout_df <- function(df){
+  df <- df %>%
+    mutate(MG_resp = case_when(
+      MJ == "timeout"                                   ~ "No",
+      (MG == "Yes" & MJ == 1) | (MG == "No" & MJ == 0)  ~ "Yes",
+      TRUE                                              ~ "No"
+    )) |> 
+    mutate(TO = case_when(
+      MJ == "timeout"                                   ~ "timeout",
+      MJ %in% c(0,1, "0", "1")  ~ "response",
+      TRUE                                              ~ "timeout"
+    )) 
+  df$MG_resp <- as.character(df$MG_resp)               
+  df$MG_resp <- factor(df$MG_resp, levels = c("No", "Yes"))  
+  df$TO <- as.character(df$TO)               
+  df$TO <- factor(df$TO,levels = c("timeout", "response"))  
+  df
+}
 #### remove timeout responses
 s3_remove_timeout_responses <- function(df){
   df <- df |> dplyr::filter(MJ != "timeout") |> 

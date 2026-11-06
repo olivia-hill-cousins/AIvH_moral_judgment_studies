@@ -81,3 +81,14 @@ check_goodness_of_fit_via_deviance <- function(model){
   )
   df
 }
+################################################################################
+# POWER SENSITIVITY VEFF RESULT
+################################################################################
+find_veff_intersect <- function(power_threshold, poweroutput){
+  approx(
+  x = poweroutput$mean,
+  y = poweroutput$veff,
+  xout = power_threshold
+  )$y
+}  
+  

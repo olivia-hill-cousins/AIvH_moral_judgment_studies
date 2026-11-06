@@ -43,6 +43,55 @@ prep_for_analysis <- function(df){
   df
 }
 
+prep_for_timeout_analysis <- function(df){
+  # make sure everything is factor
+  df$Dilemma <- as.factor(df$Dilemma)
+  df$Agent <- as.factor(df$Agent)
+  df$Context <- as.factor(df$Context)
+  df$PDE <- as.factor(df$PDE)
+  df$BA <- as.factor(df$BA)
+  df$MC <- as.factor(df$MC)
+  df$Intent <- as.factor(df$Intent)
+  df$PBH <- as.factor(df$PBH)
+  df$MG <- as.factor(df$MG)
+  df$RT <- abs(as.numeric(df$RT))
+  
+  
+  
+  #set deviation contrasts for ease of interpretation -.5 vs .5
+  c<-contr.treatment(2)
+  my.coding<-matrix(rep(1/2, 2), ncol=1)
+  my.simple<-c-my.coding
+  
+  contrasts(df$PDE)<-my.simple
+  
+  contrasts(df$BA)<-my.simple
+  
+  contrasts(df$MC)<-my.simple
+  
+  contrasts(df$Intent)<-my.simple
+  
+  contrasts(df$PBH)<-my.simple
+  
+  contrasts(df$MG)<-my.simple
+  
+  contrasts(df$Agent)<- -1 * my.simple # -1 * makes human = -0.5, rather than AI
+  
+  df <- df %>%
+    mutate(MG_resp = recode(MG_resp, "Yes" = "1",
+                       "No" = "0"))
+  
+  df$MG_resp <- as.factor(df$MG_resp)
+  
+  df <- df %>%
+    mutate(TO = recode(TO, "timeout" = "1",
+                            "response" = "0"))
+  
+  df$TO <- as.factor(df$TO)
+  
+  df
+}
+
 fit_glmer <- function(df, DV, FE_structure, RE_structure, family_link){
   df <- df %>%
     mutate(ID = factor(ID),Dilemma = factor(Dilemma))

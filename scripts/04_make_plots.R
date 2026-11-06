@@ -1,7 +1,7 @@
 ################################################################################
 # PREDICTED PROBABILITIES PLOTS
 ################################################################################
-plot_predicted_probabilities <- function(model, name, path = "figures", colours, theme) {
+plot_predicted_probabilities <- function(model, name, path = "figures", colours, theme, DV_name) {
   
   p_int <- sjPlot::plot_model(model, type = "int", colors = colours)
   
@@ -11,7 +11,6 @@ plot_predicted_probabilities <- function(model, name, path = "figures", colours,
   } else {
     p_int_list <- p_int
   }
-  
   # Get parameter names from the plot data
   par_names <- p_int_list[[1]]$data
   orig <- par_names$Parameter
@@ -33,8 +32,15 @@ plot_predicted_probabilities <- function(model, name, path = "figures", colours,
     function(p) {
       p +
         theme +
-        ggplot2::labs(title = NULL) +
-        ggplot2::scale_y_discrete(labels = lab_vec)
+        ggplot2::labs(title = function(x) {
+          clean <- x
+          clean <- gsub("2(?=:)", "", clean, perl = TRUE)
+          clean <- gsub("2$", "", clean)
+          clean <- gsub("2(?=_)", "", clean, perl = TRUE)
+          clean <- gsub(":", " x ", clean)
+          clean <- gsub("_", " ", clean)
+          tools::toTitleCase(clean)
+        }, y= DV_name) 
     }
   )
   
@@ -48,6 +54,52 @@ plot_predicted_probabilities <- function(model, name, path = "figures", colours,
       width = 7,
       height = 5,
       dpi = 300
+    )
+    # Transparent background version
+    ggplot2::ggsave(
+      filename = file.path(path, paste0(name, "_", i, "transparentBG.png")),
+      plot = p_int_list[[i]] +
+        ggplot2::theme(
+          plot.background = ggplot2::element_rect(
+            fill = "transparent", colour = NA
+          ),
+          panel.background = ggplot2::element_rect(
+            fill = "transparent", colour = NA
+          ),
+          legend.background = ggplot2::element_rect(
+            fill = "transparent", colour = NA
+          ),
+          legend.key = ggplot2::element_rect(
+            fill = "transparent", colour = NA
+        ),
+      # Make all text white
+      text = ggplot2::element_text(colour = "white"),
+      axis.text = ggplot2::element_text(colour = "white"),
+      axis.title = ggplot2::element_text(colour = "white"),
+      legend.text = ggplot2::element_text(colour = "white"),
+      legend.title = ggplot2::element_text(colour = "white"),
+      plot.title = ggplot2::element_text(colour = "white"),
+      plot.subtitle = ggplot2::element_text(colour = "white"),
+      strip.text = ggplot2::element_text(colour = "white"),
+      # Gridlines inside the plot
+      panel.grid.major.x = ggplot2::element_line(
+        colour = "grey10", linewidth = 0.3, linetype = "solid"
+      ),
+      panel.grid.major.y = ggplot2::element_line(
+        colour = "grey10", linewidth = 0.3, linetype = "solid"
+      ),
+      panel.grid.minor.x = ggplot2::element_blank(),
+      panel.grid.minor.y = ggplot2::element_blank(),
+      
+      # Tick marks along the axes
+      axis.ticks.x = ggplot2::element_line(colour = "grey70"),
+      axis.ticks.y = ggplot2::element_line(colour = "grey70"),
+      axis.line = ggplot2::element_line(colour = "grey70"),
+      panel.border = ggplot2::element_rect(colour = "white", fill = NA, linewidth = 0.5)),
+      width = 7,
+      height = 5,
+      dpi = 300,
+      bg = "transparent"
     )
   }
   
@@ -85,7 +137,15 @@ plot_toast <- function(model, name, path="figures", colours, theme, bound_val){
   lab_vec <- setNames(clean, orig)
   
   p <- plot(toast) +
-    scale_y_discrete(labels = lab_vec)
+    scale_y_discrete(labels = function(x) {
+      clean <- x
+      clean <- gsub("2(?=:)", "", clean, perl = TRUE)
+      clean <- gsub("2$", "", clean)
+      clean <- gsub("2(?=_)", "", clean, perl = TRUE)
+      clean <- gsub(":", " x ", clean)
+      clean <- gsub("_", " ", clean)
+      tools::toTitleCase(clean)
+    })
   
   
   
@@ -102,6 +162,46 @@ plot_toast <- function(model, name, path="figures", colours, theme, bound_val){
     height=5.83,
     units="in",
     dpi=300
+  )
+  ggplot2::ggsave(
+    filename=file.path(path, paste0(name, "_toast_plot_transparentBG.png")),
+    plot = p_custom +
+      ggplot2::theme(
+        plot.background = ggplot2::element_rect(
+          fill = "transparent", colour = NA
+        ),
+        panel.background = ggplot2::element_rect(
+          fill = "transparent", colour = NA
+        ),
+        legend.background = ggplot2::element_rect(
+          fill = "transparent", colour = NA
+        ),
+        legend.key = ggplot2::element_rect(
+          fill = "transparent", colour = NA
+        ),
+        # Make all text white
+        text = ggplot2::element_text(colour = "white"),
+        axis.text = ggplot2::element_text(colour = "white"),
+        axis.title = ggplot2::element_text(colour = "white"),
+        legend.text = ggplot2::element_text(colour = "white"),
+        legend.title = ggplot2::element_text(colour = "white"),
+        plot.title = ggplot2::element_text(colour = "white"),
+        plot.subtitle = ggplot2::element_text(colour = "white"),
+        strip.text = ggplot2::element_text(colour = "white"),
+    
+    # Gridlines inside the plot
+    panel.grid.major.x = ggplot2::element_blank(),
+    panel.grid.major.y = ggplot2::element_blank(),
+    panel.grid.minor.x = ggplot2::element_blank(),
+    panel.grid.minor.y = ggplot2::element_blank(),
+    axis.line = ggplot2::element_line(colour = "grey70", linewidth=0.2),
+    # Tick marks along the axes
+    axis.ticks.x = ggplot2::element_line(colour = "grey70"),
+    axis.ticks.y = ggplot2::element_line(colour = "grey70")),
+    width = 7,
+    height = 5,
+    dpi = 300,
+    bg = "transparent"
   )
   p_custom
 }
@@ -150,13 +250,15 @@ make_nationality_heatmap_for_s1 <- function(demo){
       fill = scales::alpha("grey90", 0.7), # semi-transparent grey box
       color = "black",
       max.overlaps = Inf,
-      min.segment.length = 0             # always draw lines if needed
+      min.segment.length = 0,             # always draw lines if needed
+      segment.color = "grey50"
     ) +
     scale_fill_distiller(
       palette = "Paired", 
       trans = pseudo_log_trans(sigma = 2),
       na.value = "grey90",
-      name = expression(Participant~italic(N))
+      name = expression(Participant~italic(N)),
+      breaks = c(1,2.5,5,7.5,10, 20, 30)
     ) +
     coord_sf(expand = TRUE) +
     theme_bw() +
@@ -196,6 +298,67 @@ make_nationality_heatmap_for_s1 <- function(demo){
     )
   
   png("figures/s1_nationality_heatmap.png", width = 3508, height = 2480, res = 300)
+  print(p)
+  dev.off()
+  ## create version with transparent background and white text
+  p <- ggplot(world_map) +
+    geom_sf(fill = NA, colour = "grey30", linewidth = 0.2) +
+    geom_sf(aes(fill = participant_count), colour = NA, size = 0.2) +
+    geom_label_repel(
+      data = world_centroids %>% filter(!is.na(participant_count)),
+      aes(X, Y, label = name_en, family = "Georgia"),
+      size = 3,
+      label.size = 0.2,                  # border width (0 removes border)
+      label.padding = unit(3, "pt"),     # small padding
+      box.padding = 1,
+      label.r = unit(0.15, "lines"),     # corner radius
+      fill = scales::alpha("grey60", 0.5), # semi-transparent grey box
+      color = "white",
+      max.overlaps = Inf,
+      min.segment.length = 0             # always draw lines if needed
+    ) +
+    scale_fill_distiller(
+      palette = "Paired",
+      trans = pseudo_log_trans(sigma = 2),
+      na.value = NA,
+      name = expression(Participant~italic(N)),
+      breaks = c(1,2.5,5,7.5,10, 20, 30)
+    ) +
+    coord_sf(expand = TRUE) +
+    theme(
+      plot.background = element_rect(fill = "transparent", colour = NA),
+      panel.background = element_rect(fill = "transparent", colour = NA),
+      panel.border = element_blank(),
+      
+      panel.grid = element_blank(),
+      
+      legend.background = element_rect(fill = "transparent", colour = NA),
+      legend.key = element_rect(fill = "transparent", colour = NA),
+      
+      plot.margin = margin(0, 10, 0, 10, "pt"),
+      
+      plot.title = element_text(
+        family = "Georgia", size = 11, face = "bold.italic",
+        lineheight = 2, colour = "white"
+      ),
+      plot.subtitle = element_text(
+        family = "Georgia", size = 11, colour = "white"
+      ),
+      axis.title = element_blank(),
+      axis.text = element_text(
+        family = "Georgia", size = 11, colour = "white"
+      ),
+      axis.ticks = element_blank(),
+      
+      legend.title = element_text(
+        family = "Georgia", face = "bold", size = 9, colour = "white"
+      ),
+      legend.text = element_text(
+        family = "Georgia", size = 8, colour = "white"
+      )
+    )
+  
+  png("figures/s1_nationality_heatmap_transparentBG.png", width = 3508, height = 2480, res = 300, bg = "transparent")
   print(p)
   dev.off()
   p
